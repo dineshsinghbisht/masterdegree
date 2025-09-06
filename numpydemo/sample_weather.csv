@@ -1,0 +1,6 @@
+Date,City,Temperature_C,Humidity_%,Precipitation_mm,Wind_Speed_kmh
+2025-09-01,New York,28,65,5.2,15
+2025-09-02,Los Angeles,32,55,0.0,10
+2025-09-03,Chicago,25,70,12.4,20
+2025-09-04,Houston,34,60,3.1,12
+2025-09-05,Miami,31,75,8.0,18
