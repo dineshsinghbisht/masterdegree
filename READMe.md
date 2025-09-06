@@ -12,3 +12,5 @@ python3 -m ipykernel install --user --name=myproject_env --display-name "Python 
 --display-name "Python (My Project)" → the friendly name you’ll see in Jupyter’s kernel dropdown.
 
 jupyter notebook
+
+
