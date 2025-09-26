@@ -11,19 +11,20 @@ csv_location = "ah4323_prob02_weather.csv"
 df = pd.read_csv(csv_location)
 
 # # Get basic information about data
-# print(df.info()) # display concise summary about dataframe
-# print(df.head()) # display first five rows - default
+# print(df.info()) # prints concise summary about DataFrame's structure
+# print(df.head()) # prints first five rows - default
 
 ##########################################  Data Wrangling  ########################################
-
-# Remove the 'Unnamed' column
+# Select only required columns to remove the 'Unnamed' column
 df_cleaned = df[["Time", "ParameterName", "ParameterValue"]]
 
 # # Print sample data for debugging
 # print(df_cleaned.head())
 
-# Transponse the data and make 'Time' column to index
-df_transposed = df_cleaned.pivot(index='Time', columns='ParameterName', values='ParameterValue')
+# Transponse the data from long format to wide format and make 'Time' column to index
+# Used Pandas DataFrame method ´pivot()´
+df_transposed = df_cleaned.pivot(
+    index='Time', columns='ParameterName', values='ParameterValue')
 
 # # Print sample data for debugging
 # print(df_transposed.head())
@@ -43,37 +44,36 @@ df_transposed = df_transposed.reset_index()
 '''
 
 # Drop the columns 'TG_PT12H_min', 'rrday' and 'snow' (Not Needed)
-df_transposed.drop(columns=["TG_PT12H_min", "rrday", "snow", "tday"], inplace=True)
+# Used Pandas DataFrame method ´drop()´
+df_transposed.drop(columns=["TG_PT12H_min", "rrday",
+                   "snow", "tday"], inplace=True)
 
 # # Print sample data for debugging
 # print(df_transposed.head())
 
 # Drop rows which contains at least one missing value ie NaN
+# Used Pandas DataFrame method `dropna()`
+# Used Pandas DataFrame method `copy()` to create true independent copy as a best practice
 df_transposed_cleaned = df_transposed.dropna().copy()
 
 # # Print sample data for debugging
 # print(df_transposed_cleaned.head())
 # print(df_transposed_cleaned.info())
 
-
-## THIS IS NOT NEEDED AS VALUES ARE FLOAT
-# # Convert the values for columns 'tmax' and 'tmin' to numeric
-# df_transposed_cleaned.loc[:, "tmax"] = pd.to_numeric(df_transposed_cleaned["tmax"])
-# df_transposed_cleaned.loc[:, "tmin"] = pd.to_numeric(df_transposed_cleaned["tmin"])
-
-
 #############################################  Task a)  ###########################################
 
-# Clone the data for "task a" from cleaned data (df_transposed_cleaned)
+# Copy the data for "task a" from cleaned data (df_transposed_cleaned)
 df_task_a = df_transposed_cleaned.copy()
 
 # Add a new column 'tmax+tmin/2' to store (tmax+tmin)/2 calculation
+# Used ´df.loc[:, "col"]' instead of ´df["col"]´ to follow best practices
 df_task_a.loc[:, "tmax+tmin/2"] = (df_task_a["tmax"] + df_task_a["tmin"]) / 2
 
 # # Print sample data for debugging
 # print(df_task_a.head())
 
-# Calculate the total average (mean) and standard deviation for 'tmax+tmin/2' column
+# Calculate the average (mean) and standard deviation for 'tmax+tmin/2' column
+# Used Pandas DataFrame methods ´mean()´ to get average and ´std()´ to get standard deviation
 tavg_mean = df_task_a["tmax+tmin/2"].mean()
 tavg_std = df_task_a["tmax+tmin/2"].std()
 
@@ -81,32 +81,39 @@ tavg_std = df_task_a["tmax+tmin/2"].std()
 lower_range = tavg_mean - tavg_std
 upper_range = tavg_mean + tavg_std
 
-# Calculate the number of observations within the range of one standard deviation
-observations_in_range = df_task_a[(df_task_a["tmax+tmin/2"] >= lower_range) & (df_task_a["tmax+tmin/2"] <= upper_range)].shape[0]
-        
-# Get the total number of valid observations
+# Calculate the number of tmax+tmin/2 observations within the range of one standard deviation
+# Used boolean masking and `shape` method with slicing to get the required count
+observations_within_range = df_task_a[(
+    df_task_a["tmax+tmin/2"] >= lower_range) & (df_task_a["tmax+tmin/2"] <= upper_range)].shape[0]
+
+# Get the total number of valid tmax+tmin/2 observations
 total_observations = df_task_a.shape[0]
-        
-# Calculate the percentage 
-percentage = (observations_in_range / total_observations) * 100
+
+# Calculate the percentage
+percentage = (observations_within_range / total_observations) * 100
 
 print(f"{percentage}% of the (tmax+tmin)/2 observations are at most one standard deviation away from the total average of (tmax+tmin)/2")
-print() # Add a blank line before next print
+print()  # print a blank line before next print for better display
 
 
 ############################################  Task b)  ############################################
 
-# Clone the data for "task b" from cleaned data (df_transposed_cleaned)
+# Copy the data for "task b" from cleaned data (df_transposed_cleaned)
 df_task_b = df_transposed_cleaned.copy()
 
-# Add a new column 'tmax-tmin' to store tmax-tmin calculation
-df_task_b.loc[:,"tmax-tmin"] = df_task_b["tmax"] - df_task_b["tmin"]
+# Add a new column 'tmax-tmin' to store (tmax - tmin) calculation
+# Used ´df.loc[:, "col"]' instead of ´df["col"]´ to follow best practices
+df_task_b.loc[:, "tmax-tmin"] = df_task_b["tmax"] - df_task_b["tmin"]
 
 # # Print sample data for debugging
 # print(df_task_b.head())
 
 # Find and print top-5 timestamps for the difference between tmax and tmin
+# Used Pandas DataFrame method ´sort_values()´ for sorting the data
+# Used ´head(5)' to dispay 5 rows
+# Used ´to_string(index=False)´ not to display index for better output
 print("------------------------------------------------------------------------------")
 print("   information of Top-5 timestamps for the difference between tmax and tmin   ")
 print("------------------------------------------------------------------------------")
-print(df_task_b.sort_values(by=["tmax-tmin"],ascending=False).head(5).to_string(index=False))
+print(df_task_b.sort_values(by=["tmax-tmin"],
+      ascending=False).head(5).to_string(index=False))

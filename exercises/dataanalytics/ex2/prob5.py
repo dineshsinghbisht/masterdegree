@@ -1,9 +1,8 @@
 import json
 import pandas as pd
-import ast
 
-## Data downloaded from sstatfi service => Railway statistics (rtie)
-## https://pxdata.stat.fi/PxWeb/pxweb/en/StatFin/StatFin__rtie/statfin_rtie_pxt_12lz.px/ 
+# Data obtained from sstatfi service in Round 1 Problem-5 => Railway statistics (rtie)
+# https://pxdata.stat.fi/PxWeb/pxweb/en/StatFin/StatFin__rtie/statfin_rtie_pxt_12lz.px/
 
 json_data_location = "prob05.json"
 
@@ -17,7 +16,8 @@ with open(json_data_location) as handle:
 # print(list(rtie_data.values()))
 
 # Convert the data into a pandas dataframe using normalisation
-df = pd.json_normalize(rtie_data, record_path = 'data')
+# Used Pandas DataFrame method ´json_normalize()´ to flatten JSON data into tabular DataFrame
+df = pd.json_normalize(rtie_data, record_path='data')
 
 # # Sample data
 # print(df.head())
@@ -30,50 +30,60 @@ df = pd.json_normalize(rtie_data, record_path = 'data')
 4  [SSS, 2009]  [50019, 69244]
 '''
 
-# Expand the 'key' column into two columns
-df[['type_of_locomotive', 'year']] = pd.DataFrame(df['key'].tolist(), index=df.index)
+# Explode the 'key' column into two columns
+# Used Pandas DataFrame method ´apply()´ as apply(pd.Series) to convert list into separate columns
+df[["type_of_locomotive", "year"]] = df["key"].apply(pd.Series)
 
-# Expand the 'values' column into two columns
-df[['trainkilometres', 'locomotivekilometres']] = pd.DataFrame(df['values'].tolist(), index=df.index)
+# Explode the 'values' column into two columns
+df[["trainkilometres", "locomotivekilometres"]] = df["values"].apply(pd.Series)
 
-# Drop the original list columns if you don’t need them
-df = df.drop(columns=['key', 'values'])
+# Drop the cloumns 'key' and 'values' not needed
+# Used Pandas DataFrame method ´drop()´ to drop the required columns
+df = df.drop(columns=["key", "values"])
 
-# # Get basic information about data post processing it 
+# # Get basic information about data post processing it
 # print(df.info()) # display concise summary about dataframe
 # print(df.head()) # display first five rows by default
 
-# Convert columns to numeric
-df['year']                   = pd.to_numeric(df['year'], errors='coerce')
-df['trainkilometres']        = pd.to_numeric(df['trainkilometres'], errors='coerce')
-df['locomotivekilometres']   = pd.to_numeric(df['locomotivekilometres'], errors='coerce')
+# Convert columns 'year', 'trainkilometres' & 'locomotivekilometres' data into numeric form to perform calculations
+# Used Pandas DataFrame method ´to_numeric()´ to convert the values to numeric (int/float)
+df["year"] = pd.to_numeric(df["year"], errors='coerce')
+df["trainkilometres"] = pd.to_numeric(df["trainkilometres"], errors='coerce')
+df["locomotivekilometres"] = pd.to_numeric(
+    df["locomotivekilometres"], errors='coerce')
 
-# # Check datatypes for columns now
-# print(df.dtypes) # display data types for columnst
-# print(df.head()) # display first five rows by default
+# # Check and confirm the information post converting the data
+# print(df.info()) # display concise summary about dataframe
+# print(df.head()) # display first five rows - default
 
-# # Write to a CSV file for debugging and anlalysis purpose
-# df.to_csv("prob05_report.csv", index=False)
+# # Write to a CSV file for debugging and anlysis purpose
+# df.to_csv("prob05_output_report.csv", index=False)
 
-
-# Group by using 'type_of_locomotive' column and compute average per year
-df_groupby = (
-    df.groupby("type_of_locomotive")[["trainkilometres", "locomotivekilometres"]].mean()
+# Group by using 'type_of_locomotive' column and compute average for 'trainkilometres' and 'locomotivekilometres' columns
+# Used Pandas DataFrame method ´groupby()´
+df_summary = (
+    df.groupby("type_of_locomotive")[
+        ["trainkilometres", "locomotivekilometres"]].mean()
 )
 
 # Rename the 'trainkilometres' and 'locomotivekilometres' columns to meaningfule names
-df_groupby.rename(columns={
+# Used Pandas DataFrame method ´rename()´ to rename the column names
+df_summary.rename(columns={
     "trainkilometres": "average_train_km_year",
     "locomotivekilometres": "average_locomotive_km_year"
 }, inplace=True)
 
-# # Print to see the affect
-# print(df_groupby)
+# # Print data to see the result
+# print(df_summary)
 
 # Sort the data with 'average_train_km_year' column on descending order
-df_final_result = df_groupby.sort_values(by = ["average_train_km_year"], ascending=False).copy()
+df_final_result = df_summary.sort_values(
+    by=["average_train_km_year"], ascending=False).copy()
 
 # Print the final outcome which summarise the data
+'''
+The resulted data shows 
+'''
 # print(df_final_result)
 
 '''
