@@ -7,7 +7,7 @@ from getpass import getuser
 #                 f'/exrc_02/data/{user}_prob02_weather.csv'
 csv_location = "ah4323_prob02_weather.csv"
 
-# Load input CSV data into dataframe
+# Load input CSV data related to hourly weather observations from Helsinki during one month
 df = pd.read_csv(csv_location)
 
 # # Get basic information about data

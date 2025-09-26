@@ -14,60 +14,96 @@ df = pd.read_csv(csv_location)
 # print(df.info()) # prints concise summary about DataFrame's structure
 # print(df.head()) # prints first five rows - default
 
-# Parse score dict -> goals
-def parse_fulltime(x):
-    if isinstance(x, dict):
-        d = x
-    elif isinstance(x, str):
-        d = literal_eval(x)
+# Convert the 'fullTime' column data from string into a python dictionary
+# Used Pandas DataFrame method ´apply()´ to convert string into list using ´literal_eval´ method call
+df["fullTime"] = df["fullTime"].apply(literal_eval)
+
+# Extract goals fullTime 'fullTime' column to create cloumns 'homeGoals' and 'awayGoals'
+df["homeGoals"] = df["fullTime"].apply(lambda x: x["homeTeam"])
+df["awayGoals"] = df["fullTime"].apply(lambda x: x["awayTeam"])
+
+# Create two rows per match: one for home team and another for away team
+# Used Pandas DataFrame method ´rename()´ to rename the columns and make them unique for both rows
+# Used Pandas DataFrame method ´concat()´ to create the final data post concatinating home_team and away_team DataFrames
+home_team = df[["homeTeam", "homeGoals", "awayGoals"]].rename(
+    columns={"homeTeam": "team", "homeGoals": "gf", "awayGoals": "ga"}
+)
+away_team = df[["awayTeam", "homeGoals", "awayGoals"]].rename(
+    columns={"awayTeam": "team", "awayGoals": "gf", "homeGoals": "ga"}
+)
+match_data = pd.concat([home_team, away_team], ignore_index=True)
+
+# Print sample data for debugging
+# print(matches.head())
+
+# Define function ´result´ to find the output as win, loss or draw using gf (goals for) and ga (goals against) as an input
+
+
+def result(row):
+    if row.gf > row.ga:
+        return "win"
+    elif row.gf < row.ga:
+        return "loss"
     else:
-        d = {}
-    return pd.Series([d.get("homeTeam"), d.get("awayTeam")], index=["home_goals", "away_goals"])
+        return "draw"
 
-df[["home_goals", "away_goals"]] = df["fullTime"].apply(parse_fulltime)
 
-# 3) Long format (home & away rows)
-home = pd.DataFrame({"team": df["homeTeam"], "gf": df["home_goals"], "ga": df["away_goals"]})
-away = pd.DataFrame({"team": df["awayTeam"], "gf": df["away_goals"], "ga": df["home_goals"]})
+# Create a new column 'result'
+# Used Pandas DataFrame method ´apply()´ to call the custom function ´result´ to determine value as 'win', 'loss' or 'draw'
+match_data["result"] = match_data.apply(result, axis=1)
 
-def add_result_flags(frame: pd.DataFrame) -> pd.DataFrame:
-    f = frame.copy()
-    f["games"]   = 1
-    f["wins"]    = (f["gf"] > f["ga"]).astype(int)
-    f["draws"]   = (f["gf"] == f["ga"]).astype(int)
-    f["defeats"] = (f["gf"] < f["ga"]).astype(int)
-    return f
+# # Print sample data for debugging
+# print(matches.head())
+# print(matches.tail())
 
-home = add_result_flags(home)
-away = add_result_flags(away)
-long = pd.concat([home, away], ignore_index=True)
+# Group the match information at each team level
+# Used Pandas DataFrame method ´groupby()´
+# To get total number of games played (games), sum of goals for (gf) and sum of goals against (ga)
+match_summary = match_data.groupby("team").agg(
+    games=("team", "count"),
+    gf=("gf", "sum"),
+    ga=("ga", "sum")
+).copy()
 
-# 4) Aggregate per team
-agg = (
-    long.groupby("team", as_index=True)
-        .agg(
-            games   = ("games", "sum"),
-            wins    = ("wins", "sum"),
-            draws   = ("draws", "sum"),
-            defeats = ("defeats", "sum"),
-            gf      = ("gf", "sum"),
-            ga      = ("ga", "sum"),
-        )
+# # Print sample data for debugging
+# print(match_summary.head())
+
+# Count wins, draws, defeats per team
+match_summary["wins"] = match_data.groupby(
+    "team")["result"].apply(lambda x: (x == "win").sum())
+match_summary["draws"] = match_data.groupby(
+    "team")["result"].apply(lambda x: (x == "draw").sum())
+match_summary["defeats"] = match_data.groupby(
+    "team")["result"].apply(lambda x: (x == "loss").sum())
+
+# # Print sample data for debugging
+# print(match_summary.head())
+
+# Add new column 'points' to store the value for - a win gives 3 points, a draw gives 1 point, and a loss gives 0 points
+match_summary["points"] = match_summary["wins"] * 3 + \
+    match_summary["draws"] + match_summary["defeats"] * 0
+
+# Add new column ´goals' to store value as goals for - goals against ie gf-ga
+match_summary["goals"] = match_summary["gf"].astype(
+    str) + "-" + match_summary["ga"].astype(str)
+
+# Add new temporary column ´goal-diff' to store value as goals for - goals against - needed for sorting requirement
+match_summary["goal-diff"] = match_summary["gf"] - match_summary["ga"]
+
+# Sort the data first with most points, then goals difference and then with goals against (ga)
+# Used Pandas DataFrame method sort_values() for sorting
+match_summary = match_summary.sort_values(
+    by=["points", "goal-diff", "ga"],
+    ascending=[False, False, False]
 )
 
-# 5) Points, GD, goals string
-agg["points"] = 3*agg["wins"] + agg["draws"]
-agg["gd"]     = agg["gf"] - agg["ga"]
-agg["goals"]  = agg["gf"].astype(int).astype(str) + "-" + agg["ga"].astype(int).astype(str)
+# # Print sample data for debugging
+# print(match_summary.head())
+# print(match_summary.tail())
 
-# 6) Sort and select display columns
-league_table = (
-    agg.sort_values(by=["points", "gd", "gf"], ascending=[False, False, False])
-       .loc[:, ["games", "wins", "draws", "defeats", "goals", "points"]]
-)
+# Select only required coloumns
+match_summary = match_summary[["games", "wins",
+                               "draws", "defeats", "goals", "points"]]
 
-# 7) Remove the index name so no "team" label appears
-league_table.index.name = None        # or: league_table = league_table.rename_axis(None)
-
-# 8) Print neatly
-print(league_table.to_string())
+# Print the final summary as asked in the task
+print(match_summary)

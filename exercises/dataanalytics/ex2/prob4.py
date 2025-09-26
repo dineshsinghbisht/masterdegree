@@ -6,14 +6,15 @@ from getpass import getuser
 #                 f'/exrc_02/data/{user}_prob04_weather.csv'
 csv_location = "ah4323_prob04_weather.csv"
 
-# Load input CSV data into dataframes
+# Load input CSV data related to old weather data from Jyväskylä 1959-2021
 df = pd.read_csv(csv_location)
 
 # # Get basic information about data
-# print(df.info()) # display concise summary about dataframe
-# print(df.head()) # display first five rows - default
+# print(df.info()) # prints concise summary about DataFrame's structure
+# print(df.head()) # prints first five rows - default
 
 # Create 'Date' column by combinining 'Year, 'Month', 'Day' cloumns
+# Used Pandas DataFrame method ´to_datetime()´
 df["Date"] = pd.to_datetime(df[["Year", "Month", "Day"]])
 
 # Extract only 'Date' and 'Snow depth (cm)' columns
