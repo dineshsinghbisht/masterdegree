@@ -53,7 +53,7 @@ df_transposed.drop(columns=["TG_PT12H_min", "rrday",
 
 # Drop rows which contains at least one missing value ie NaN
 # Used Pandas DataFrame method `dropna()`
-# Used Pandas DataFrame method `copy()` to create true independent copy as a best practice
+# Used Pandas DataFrame method `copy()` to create a true independent copy as a best practice
 df_transposed_cleaned = df_transposed.dropna().copy()
 
 # # Print sample data for debugging

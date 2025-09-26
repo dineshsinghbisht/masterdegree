@@ -1,25 +1,25 @@
 import pandas as pd
 from getpass import getuser
-import ast
+from ast import literal_eval
 
 # user = getuser()
 # csv_location = f'/home/varpha/dan/private/{user}' + \
 #                 f'/exrc_02/data/{user}_prob03_epl.csv'
 csv_location = "ah4323_prob03_epl.csv"
 
-# Load input CSV data into dataframes
+# Load input CSV data related to some English Premier League results into pandas DataFrame
 df = pd.read_csv(csv_location)
 
 # # Get basic information about data
-# print(df.info()) # display concise summary about dataframe
-# print(df.head()) # display first five rows - default
+# print(df.info()) # prints concise summary about DataFrame's structure
+# print(df.head()) # prints first five rows - default
 
 # Parse score dict -> goals
 def parse_fulltime(x):
     if isinstance(x, dict):
         d = x
     elif isinstance(x, str):
-        d = ast.literal_eval(x)
+        d = literal_eval(x)
     else:
         d = {}
     return pd.Series([d.get("homeTeam"), d.get("awayTeam")], index=["home_goals", "away_goals"])
