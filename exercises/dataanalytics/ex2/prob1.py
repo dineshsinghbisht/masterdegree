@@ -10,6 +10,9 @@ csv_location = "ah4323_prob01_profiles.csv"
 # Load input CSV data related to user profiles into pandas DataFrame
 df = pd.read_csv(csv_location)
 
+# Load input CSV data related to hourl weather observations into pandas DataFrame
+df_weather = pd.read_csv(csv_location)
+
 # # Get basic information about data
 # print(df.info()) # prints concise summary about DataFrame's structure
 # print(df.head()) # prints first five rows - default
