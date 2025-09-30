@@ -64,4 +64,12 @@ print(df_merged.head())
 # print(df_merged.tail())
 # print(df_merged.columns)
 
-df_merged.to_csv("exrc_03_merged_output.csv", index=False)
+# df_merged.to_csv("exrc_03_merged_output.csv", index=False)
+
+# remove any row where column 'a' OR 'b' is NaN
+# Used pand method dropna() with subset parameter where concerned cols provided
+df_cleaned = df_merged.dropna(subset=['Sammonpuistikko', 'air temperature (degC)'])
+
+
+# Print sample for debugging post removing the NaN entries
+df_cleaned.info()
