@@ -1,15 +1,17 @@
 # Peer Review Comments
 
 ## Problem - 1
-- **Feedback on the Solution**: The solution provided is acceptable, but it could be improved in terms of formatting, depth of content, and quality of examples. Additionally, the use of AI tools could have been leveraged more effectively.  
-- **Evaluation**: I would rate the solution **3 points**.  
-- **Self-Evaluation**: I would rate my own work **5 points**, as I believe I prepared the document in a proper format, with structured presentation and quality content.  
+- **Feedback on the Solution**: Code ran successfully and all results are as expected. All the tasks are explained well with the code and comments. Good Work  
+- **Evaluation**: I would rate the solution **5 points**.  
+- **Self-Evaluation**: I would rate my own work **5 points** as well, all the outputs are as expected and explained the code with proper comments  
 
 ## Problem - 2
-- **Feedback on the Solution**: The solution is acceptable as it produces the expected output. However, since I am still learning NumPy and Python, I was not able to fully understand the logic behind some part of the solution.  
+- **Feedback on the Solution**: The solution is acceptable as it produces the expected outputs for both tasks. Comments around codes are good too. I ran the code with my data and it exactly matches with my ouputs.
 - **Evaluation**: I would rate the solution **5 points**.  
-- **Self-Evaluation**: I would rate my own work **5 points**, as I completed all the tasks and also verified the results.  
+- **Self-Evaluation**: I would rate my own work **5 points**, as I completed all the tasks as asked and also verified the results.
 
+
+From here to dos
 ## Problem - 3
 - **Feedback on the Solution**: The solution is acceptable as it produces the expected output and I can understand it.
 - **Evaluation**: I would rate the solution **5 points**.  
