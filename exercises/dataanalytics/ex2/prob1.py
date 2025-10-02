@@ -86,6 +86,9 @@ print()  # insert a blank line for better display
 
 # Sort by 'birthdate' ie age (youngest first) where name begins with the letter A and print result
 sorted_by_age = filtered_df.sort_values(by='birthdate', ascending=False)
+sorted_by_age.info()
+# sorted_by_age["birthdate"] = pd.to_datetime(sorted_by_age["birthdate"])
+# sorted_by_age.info()
 
 print("------------------------------------------------------------------------------------------------")
 print("    All entries where the last name begins with the letter A, sorted by age (youngest first)    ")
