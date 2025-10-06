@@ -1,49 +1,26 @@
 from scipy import stats as st
 
-n, p, size = 10, 0.5, 5
-print("Type of size:", type(size))
+# st.binom.pmf(k, n, p) => Output is the the probability that exactly k successes occur in n independent trials, each with success probability p
+# k => The number of successes we care about (exactly 10)
+# n => Total number of trials
+# p => Probability of success in each tria
 
-#a = st.binom.rvs(n=n, p=p, size=size)
-a = st.binom.rvs(n, p, size=size)
-print("a =", a)
-print("type(a) =", type(a))
+# Lets solve the problem using method ´.pmf()´ (Probability Mass Function)
+p = 0.96                            # probability of a participant turns up for the session is 0.96
+target_probability = 0.97           # the probability that the session is full (i.e. 8 or more participants turn up)
+available_spots = 8                 # number of spots in seminar
+spots_to_sell = available_spots     # start from available_spots / trials
 
-
-# seat_capacity = 10
-# p_turnup = 0.95
-
-# tickets_sold = seat_capacity  # Start with 10 tickets
-
-# while True:
-#     # Calculate probability that at least seat_capacity passengers show up
-#     probs = [st.binom.pmf(k, tickets_sold, p_turnup) for k in range(seat_capacity, tickets_sold + 1)]
-#     prob_full = sum(probs)
-
-#     print(f"Tickets sold: {tickets_sold}, P(flight full): {prob_full:.6f}")
+# Start an infinite while loop (which we will break out of when satisfied ie > 0.97 probability
+while True:
+    # Sum probabilities of having at least 'spots' participants turn up
+    seminar_full_probability = sum(st.binom.pmf(k=i, n=spots_to_sell, p=p) for i in range(available_spots, spots_to_sell + 1))
     
-#     if prob_full > 0.99:
-#         print(f"\n✅ Minimum tickets to sell = {tickets_sold}")
-#         break
+    # Break out when satisfied (> 0.97 probability was given in the problem statement)
+    if seminar_full_probability > target_probability:
+        print(f"Probability of full session (≥ {available_spots}): {seminar_full_probability:.4f}") # Probability of full session (≥ 8): 0.9938
+        print(f"Minimum number of spots to sell: {spots_to_sell}") # Minimum number of spots to sell: 10
+        break
 
-#     tickets_sold += 1
-
-
-
-# seat_capacity = 8        # total spots
-# p_turnup = 0.96          # probability a participant shows up
-
-# tickets_sold = seat_capacity  # start with selling exactly 8
-
-# while True:
-#     # Sum probabilities P(X = k) for k = 8, 9, ..., tickets_sold
-#     probs = [st.binom.pmf(k, tickets_sold, p_turnup) 
-#              for k in range(seat_capacity, tickets_sold + 1)]
-#     prob_full = sum(probs)
-
-#     print(f"Tickets sold: {tickets_sold}, P(session full): {prob_full:.6f}")
-
-#     if prob_full > 0.97:
-#         print(f"\n✅ Minimum spots to sell = {tickets_sold}")
-#         break
-
-#     tickets_sold += 1
+    # In case we didn't break out, increase the number of spots to sell
+    spots_to_sell += 1
