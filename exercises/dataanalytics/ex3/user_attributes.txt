@@ -1,0 +1,8 @@
+id
+username
+public_email
+name
+state
+locked
+avatar_url
+web_url
