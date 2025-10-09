@@ -8,8 +8,7 @@ Most of these projects do not have any forks or stars, resulting in **highly ske
 - Only one project, **`IT_matematiikka`**, has **3 stars**.  
 - Two other projects, **`core`** and **`moduulit-2022-2023`**, have **2 stars each**.  
 - The **`basics-template`** project has the **highest number of forks**, with **~90 forks** in total.
-- **core** project is most active terms of both **commits** and **issues**.
-- 
+- **core** project is most active terms of both **commits (~100,000)** and **issues (~6500)**.
 
 ---
 
@@ -33,7 +32,7 @@ There are **n users** in GitLab.
 
 ## Time and Resource Consumption
 
-One of the **most time- and CPU-intensive tasks** was retrieving commit and issue information for all projects.  
+One of the **most time- and CPU-intensive tasks** was retrieving commit and issue information for all the public projects.  
 For me, this process took approximately **20 minutes**.
 
 ---
