@@ -19,3 +19,7 @@ model.fit(X, y)
 
 print("Coefficients:", model.coef_)
 print("Intercept:", model.intercept_)
+
+new_house = [[2000, 3, 10]]  # 2000 sq ft, 3 bedrooms, 10 years old
+pred_price = model.predict(new_house)
+print(pred_price)
