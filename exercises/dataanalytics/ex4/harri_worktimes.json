@@ -1,0 +1,3883 @@
+[
+  {
+    "id": 417,
+    "start": "20240805T045727Z",
+    "end": "20240805T050750Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 416,
+    "start": "20240805T052806Z",
+    "end": "20240805T055508Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 415,
+    "start": "20240805T055946Z",
+    "end": "20240805T061310Z",
+    "tags": [
+      "course registrations",
+      "ttv"
+    ]
+  },
+  {
+    "id": 414,
+    "start": "20240805T064729Z",
+    "end": "20240805T070402Z",
+    "tags": [
+      "course registrations",
+      "ttv"
+    ]
+  },
+  {
+    "id": 413,
+    "start": "20240805T072816Z",
+    "end": "20240805T074159Z",
+    "tags": [
+      "daily planning",
+      "ttv"
+    ]
+  },
+  {
+    "id": 412,
+    "start": "20240805T074216Z",
+    "end": "20240805T080402Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 411,
+    "start": "20240805T094132Z",
+    "end": "20240805T101516Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 410,
+    "start": "20240805T102219Z",
+    "end": "20240805T102929Z",
+    "tags": [
+      "course planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 409,
+    "start": "20240805T102933Z",
+    "end": "20240805T104055Z",
+    "tags": [
+      "reportronic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 408,
+    "start": "20240805T111751Z",
+    "end": "20240805T111836Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 407,
+    "start": "20240805T141519Z",
+    "end": "20240805T145623Z",
+    "tags": [
+      "reportronic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 406,
+    "start": "20240806T061855Z",
+    "end": "20240806T064548Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 405,
+    "start": "20240806T064628Z",
+    "end": "20240806T070946Z",
+    "tags": [
+      "e-ahot tic",
+      "tic"
+    ]
+  },
+  {
+    "id": 404,
+    "start": "20240806T071118Z",
+    "end": "20240806T072631Z",
+    "tags": [
+      "course registrations",
+      "ttv"
+    ]
+  },
+  {
+    "id": 403,
+    "start": "20240806T095102Z",
+    "end": "20240806T095517Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 402,
+    "start": "20240806T095524Z",
+    "end": "20240806T105813Z",
+    "tags": [
+      "rahoituspalaveri",
+      "ttv"
+    ]
+  },
+  {
+    "id": 401,
+    "start": "20240807T050817Z",
+    "end": "20240807T052315Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 400,
+    "start": "20240807T052317Z",
+    "end": "20240807T053533Z",
+    "tags": [
+      "course registrations",
+      "ttv"
+    ]
+  },
+  {
+    "id": 399,
+    "start": "20240807T053538Z",
+    "end": "20240807T055041Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 398,
+    "start": "20240807T061348Z",
+    "end": "20240807T070056Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 397,
+    "start": "20240807T071700Z",
+    "end": "20240807T072419Z",
+    "tags": [
+      "e-ahot tic",
+      "tic"
+    ]
+  },
+  {
+    "id": 396,
+    "start": "20240808T061129Z",
+    "end": "20240808T062424Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 395,
+    "start": "20240808T062442Z",
+    "end": "20240808T062554Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 394,
+    "start": "20240808T062557Z",
+    "end": "20240808T063118Z",
+    "tags": [
+      "course registrations",
+      "ttv"
+    ]
+  },
+  {
+    "id": 393,
+    "start": "20240808T064000Z",
+    "end": "20240808T064503Z",
+    "tags": [
+      "mat lähtötasotesti",
+      "ttv"
+    ]
+  },
+  {
+    "id": 392,
+    "start": "20240808T064513Z",
+    "end": "20240808T065016Z",
+    "tags": [
+      "mat lähtötasotesti",
+      "tic"
+    ]
+  },
+  {
+    "id": 391,
+    "start": "20240808T095349Z",
+    "end": "20240808T100912Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 390,
+    "start": "20240808T101002Z",
+    "end": "20240808T103009Z",
+    "tags": [
+      "course planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 389,
+    "start": "20240809T050013Z",
+    "end": "20240809T050201Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 388,
+    "start": "20240809T050203Z",
+    "end": "20240809T052919Z",
+    "tags": [
+      "course registrations",
+      "ttv"
+    ]
+  },
+  {
+    "id": 387,
+    "start": "20240809T054910Z",
+    "end": "20240809T064510Z",
+    "tags": [
+      "course planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 386,
+    "start": "20240812T050123Z",
+    "end": "20240812T051025Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 385,
+    "start": "20240812T051943Z",
+    "end": "20240812T053118Z",
+    "tags": [
+      "course registrations",
+      "ttv"
+    ]
+  },
+  {
+    "id": 384,
+    "start": "20240812T060559Z",
+    "end": "20240812T065838Z",
+    "tags": [
+      "tic",
+      "ttv",
+      "valintakoe - windows vm",
+      "yfs"
+    ]
+  },
+  {
+    "id": 383,
+    "start": "20240812T084035Z",
+    "end": "20240812T091934Z",
+    "tags": [
+      "mat lähtötasotesti",
+      "ttv"
+    ]
+  },
+  {
+    "id": 382,
+    "start": "20240813T062911Z",
+    "end": "20240813T081707Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 381,
+    "start": "20240813T093709Z",
+    "end": "20240813T100330Z",
+    "tags": [
+      "course registrations",
+      "ttv"
+    ]
+  },
+  {
+    "id": 380,
+    "start": "20240813T100513Z",
+    "end": "20240813T102515Z",
+    "tags": [
+      "alatalo-llama-valintakoe",
+      "ttv"
+    ]
+  },
+  {
+    "id": 379,
+    "start": "20240813T121500Z",
+    "end": "20240813T130024Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 378,
+    "start": "20240814T121050Z",
+    "end": "20240814T143513Z",
+    "tags": [
+      "course planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 377,
+    "start": "20240816T051622Z",
+    "end": "20240816T054445Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 376,
+    "start": "20240816T054447Z",
+    "end": "20240816T055736Z",
+    "tags": [
+      "course registrations",
+      "ttv"
+    ]
+  },
+  {
+    "id": 375,
+    "start": "20240816T060000Z",
+    "end": "20240816T063002Z",
+    "tags": [
+      "pedacafe",
+      "ttv"
+    ]
+  },
+  {
+    "id": 374,
+    "start": "20240816T094903Z",
+    "end": "20240816T113547Z",
+    "tags": [
+      "rahankäyttöehdotus",
+      "ttv"
+    ]
+  },
+  {
+    "id": 373,
+    "start": "20240817T061054Z",
+    "end": "20240817T070956Z",
+    "tags": [
+      "sirpa moodle-test fix",
+      "ttv"
+    ]
+  },
+  {
+    "id": 372,
+    "start": "20240818T063932Z",
+    "end": "20240818T074755Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 371,
+    "start": "20240818T074805Z",
+    "end": "20240818T083140Z",
+    "tags": [
+      "mat lähtötasotesti",
+      "tic"
+    ]
+  },
+  {
+    "id": 370,
+    "start": "20240818T103359Z",
+    "end": "20240818T140031Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 369,
+    "start": "20240819T043111Z",
+    "end": "20240819T053024Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 368,
+    "start": "20240819T055033Z",
+    "end": "20240819T064131Z",
+    "tags": [
+      "course registrations",
+      "ttv"
+    ]
+  },
+  {
+    "id": 367,
+    "start": "20240819T064145Z",
+    "end": "20240819T070000Z",
+    "tags": [
+      "moodle question bank bug",
+      "ttv"
+    ]
+  },
+  {
+    "id": 366,
+    "start": "20240819T072603Z",
+    "end": "20240819T083123Z",
+    "tags": [
+      "mat lähtötasotesti",
+      "tic"
+    ]
+  },
+  {
+    "id": 365,
+    "start": "20240819T093524Z",
+    "end": "20240819T104254Z",
+    "tags": [
+      "email cleaning",
+      "ttv"
+    ]
+  },
+  {
+    "id": 364,
+    "start": "20240819T123131Z",
+    "end": "20240819T123922Z",
+    "tags": [
+      "email cleaning",
+      "ttv"
+    ]
+  },
+  {
+    "id": 363,
+    "start": "20240820T052300Z",
+    "end": "20240820T053102Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 362,
+    "start": "20240820T053128Z",
+    "end": "20240820T055753Z",
+    "tags": [
+      "course registrations",
+      "ttv"
+    ]
+  },
+  {
+    "id": 361,
+    "start": "20240820T063135Z",
+    "end": "20240820T071303Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 360,
+    "start": "20240820T085839Z",
+    "end": "20240820T094215Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 359,
+    "start": "20240820T095034Z",
+    "end": "20240820T103045Z",
+    "tags": [
+      "course planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 358,
+    "start": "20240820T112354Z",
+    "end": "20240820T130515Z",
+    "tags": [
+      "course planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 357,
+    "start": "20240821T051635Z",
+    "end": "20240821T053019Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 356,
+    "start": "20240821T053021Z",
+    "end": "20240821T055030Z",
+    "tags": [
+      "course registrations",
+      "ttv"
+    ]
+  },
+  {
+    "id": 355,
+    "start": "20240821T055106Z",
+    "end": "20240821T101146Z",
+    "tags": [
+      "math wiki translation fi -> en",
+      "tic"
+    ]
+  },
+  {
+    "id": 354,
+    "start": "20240821T121203Z",
+    "end": "20240821T144913Z",
+    "tags": [
+      "math wiki translation fi -> en",
+      "tic"
+    ]
+  },
+  {
+    "id": 353,
+    "start": "20240822T061956Z",
+    "end": "20240822T062751Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 352,
+    "start": "20240822T062927Z",
+    "end": "20240822T072929Z",
+    "tags": [
+      "tic",
+      "tic info session"
+    ]
+  },
+  {
+    "id": 351,
+    "start": "20240822T074048Z",
+    "end": "20240822T082730Z",
+    "tags": [
+      "course registrations",
+      "ttv"
+    ]
+  },
+  {
+    "id": 350,
+    "start": "20240822T090920Z",
+    "end": "20240822T115604Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 349,
+    "start": "20240823T045604Z",
+    "end": "20240823T054817Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 348,
+    "start": "20240823T055640Z",
+    "end": "20240823T063214Z",
+    "tags": [
+      "course registrations",
+      "ttv"
+    ]
+  },
+  {
+    "id": 347,
+    "start": "20240823T103127Z",
+    "end": "20240823T111839Z",
+    "tags": [
+      "course registrations",
+      "ttv"
+    ]
+  },
+  {
+    "id": 346,
+    "start": "20240823T111852Z",
+    "end": "20240823T121554Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 345,
+    "start": "20240823T122548Z",
+    "end": "20240823T130551Z",
+    "tags": [
+      "dan",
+      "dan: planning"
+    ]
+  },
+  {
+    "id": 344,
+    "start": "20240825T052028Z",
+    "end": "20240825T054959Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 343,
+    "start": "20240825T061009Z",
+    "end": "20240825T064524Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 342,
+    "start": "20240825T070032Z",
+    "end": "20240825T072738Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 341,
+    "start": "20240825T081421Z",
+    "end": "20240825T084629Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 340,
+    "start": "20240825T091329Z",
+    "end": "20240825T100300Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 339,
+    "start": "20240825T110224Z",
+    "end": "20240825T114600Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 338,
+    "start": "20240825T124212Z",
+    "end": "20240825T132649Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 337,
+    "start": "20240825T134355Z",
+    "end": "20240825T142907Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 336,
+    "start": "20240825T144103Z",
+    "end": "20240825T151606Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 335,
+    "start": "20240825T151608Z",
+    "end": "20240825T152003Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 334,
+    "start": "20240826T044146Z",
+    "end": "20240826T045201Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 333,
+    "start": "20240826T045206Z",
+    "end": "20240826T052959Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 332,
+    "start": "20240826T054410Z",
+    "end": "20240826T061151Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 331,
+    "start": "20240826T061152Z",
+    "end": "20240826T061355Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 330,
+    "start": "20240826T062230Z",
+    "end": "20240826T065633Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 329,
+    "start": "20240826T070731Z",
+    "end": "20240826T080325Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 328,
+    "start": "20240826T081401Z",
+    "end": "20240826T085414Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 327,
+    "start": "20240826T091525Z",
+    "end": "20240826T102658Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 326,
+    "start": "20240826T105600Z",
+    "end": "20240826T113212Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 325,
+    "start": "20240826T114013Z",
+    "end": "20240826T124328Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 324,
+    "start": "20240826T130340Z",
+    "end": "20240826T141037Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 323,
+    "start": "20240826T141237Z",
+    "end": "20240826T152511Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 322,
+    "start": "20240827T050614Z",
+    "end": "20240827T051301Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 321,
+    "start": "20240827T051304Z",
+    "end": "20240827T052334Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 320,
+    "start": "20240827T052336Z",
+    "end": "20240827T060517Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 319,
+    "start": "20240827T061241Z",
+    "end": "20240827T064745Z",
+    "tags": [
+      "discrete: teaching fi",
+      "ttv"
+    ]
+  },
+  {
+    "id": 318,
+    "start": "20240827T065243Z",
+    "end": "20240827T071245Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 317,
+    "start": "20240827T073952Z",
+    "end": "20240827T075942Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 316,
+    "start": "20240827T075945Z",
+    "end": "20240827T084823Z",
+    "tags": [
+      "dan",
+      "dan: planning"
+    ]
+  },
+  {
+    "id": 315,
+    "start": "20240827T084826Z",
+    "end": "20240827T090250Z",
+    "tags": [
+      "course registrations",
+      "ttv"
+    ]
+  },
+  {
+    "id": 314,
+    "start": "20240827T090255Z",
+    "end": "20240827T092929Z",
+    "tags": [
+      "e-ahot tic",
+      "tic"
+    ]
+  },
+  {
+    "id": 313,
+    "start": "20240827T093156Z",
+    "end": "20240827T101800Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 312,
+    "start": "20240827T103610Z",
+    "end": "20240827T110921Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 311,
+    "start": "20240827T113408Z",
+    "end": "20240827T120802Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 310,
+    "start": "20240827T121122Z",
+    "end": "20240827T140125Z",
+    "tags": [
+      "discrete: teaching fi",
+      "ttv"
+    ]
+  },
+  {
+    "id": 309,
+    "start": "20240828T035502Z",
+    "end": "20240828T041704Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 308,
+    "start": "20240828T064158Z",
+    "end": "20240828T073532Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 307,
+    "start": "20240828T084042Z",
+    "end": "20240828T100743Z",
+    "tags": [
+      "discrete: teaching fi",
+      "ttv"
+    ]
+  },
+  {
+    "id": 306,
+    "start": "20240828T114844Z",
+    "end": "20240828T115615Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 305,
+    "start": "20240828T115625Z",
+    "end": "20240828T121108Z",
+    "tags": [
+      "e-ahot tic",
+      "tic"
+    ]
+  },
+  {
+    "id": 304,
+    "start": "20240828T121256Z",
+    "end": "20240828T122604Z",
+    "tags": [
+      "tic",
+      "ttv",
+      "valintakoe - emails",
+      "yfs"
+    ]
+  },
+  {
+    "id": 303,
+    "start": "20240828T123252Z",
+    "end": "20240828T133054Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 302,
+    "start": "20240828T133555Z",
+    "end": "20240828T144955Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 301,
+    "start": "20240829T054943Z",
+    "end": "20240829T060155Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 300,
+    "start": "20240829T060158Z",
+    "end": "20240829T062458Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 299,
+    "start": "20240829T062503Z",
+    "end": "20240829T081054Z",
+    "tags": [
+      "discrete: teaching en",
+      "tic"
+    ]
+  },
+  {
+    "id": 298,
+    "start": "20240829T085640Z",
+    "end": "20240829T103621Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 297,
+    "start": "20240829T105933Z",
+    "end": "20240829T115936Z",
+    "tags": [
+      "buas meeting",
+      "ttv"
+    ]
+  },
+  {
+    "id": 296,
+    "start": "20240829T121710Z",
+    "end": "20240829T132355Z",
+    "tags": [
+      "dan",
+      "dan: planning"
+    ]
+  },
+  {
+    "id": 295,
+    "start": "20240829T133259Z",
+    "end": "20240829T142504Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 294,
+    "start": "20240829T143359Z",
+    "end": "20240829T145150Z",
+    "tags": [
+      "dan",
+      "dan: planning"
+    ]
+  },
+  {
+    "id": 293,
+    "start": "20240830T034720Z",
+    "end": "20240830T040240Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 292,
+    "start": "20240830T040243Z",
+    "end": "20240830T042103Z",
+    "tags": [
+      "course registrations",
+      "ttv"
+    ]
+  },
+  {
+    "id": 291,
+    "start": "20240830T042320Z",
+    "end": "20240830T060822Z",
+    "tags": [
+      "discrete: teaching fi",
+      "ttv"
+    ]
+  },
+  {
+    "id": 290,
+    "start": "20240830T101523Z",
+    "end": "20240830T133835Z",
+    "tags": [
+      "dan",
+      "dan: planning"
+    ]
+  },
+  {
+    "id": 289,
+    "start": "20240831T134147Z",
+    "end": "20240831T144356Z",
+    "tags": [
+      "reportronic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 288,
+    "start": "20240901T053405Z",
+    "end": "20240901T054616Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 287,
+    "start": "20240901T055241Z",
+    "end": "20240901T060444Z",
+    "tags": [
+      "daily planning",
+      "ttv"
+    ]
+  },
+  {
+    "id": 286,
+    "start": "20240901T060452Z",
+    "end": "20240901T064454Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 285,
+    "start": "20240901T065952Z",
+    "end": "20240901T072625Z",
+    "tags": [
+      "dan",
+      "dan: planning"
+    ]
+  },
+  {
+    "id": 284,
+    "start": "20240901T075047Z",
+    "end": "20240901T083006Z",
+    "tags": [
+      "dan",
+      "dan: planning"
+    ]
+  },
+  {
+    "id": 283,
+    "start": "20240901T090204Z",
+    "end": "20240901T093921Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 282,
+    "start": "20240901T094708Z",
+    "end": "20240901T100249Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 281,
+    "start": "20240901T104035Z",
+    "end": "20240901T110646Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 280,
+    "start": "20240901T114013Z",
+    "end": "20240901T122035Z",
+    "tags": [
+      "dan",
+      "dan: planning"
+    ]
+  },
+  {
+    "id": 279,
+    "start": "20240901T122836Z",
+    "end": "20240901T130153Z",
+    "tags": [
+      "dan",
+      "dan: planning"
+    ]
+  },
+  {
+    "id": 278,
+    "start": "20240901T132237Z",
+    "end": "20240901T135529Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 277,
+    "start": "20240901T141512Z",
+    "end": "20240901T142140Z",
+    "tags": [
+      "course registrations",
+      "ttv"
+    ]
+  },
+  {
+    "id": 276,
+    "start": "20240901T142147Z",
+    "end": "20240901T151819Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 275,
+    "start": "20240902T054923Z",
+    "end": "20240902T055236Z",
+    "tags": [
+      "daily planning",
+      "ttv"
+    ]
+  },
+  {
+    "id": 274,
+    "start": "20240902T055241Z",
+    "end": "20240902T061807Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 273,
+    "start": "20240902T061813Z",
+    "end": "20240902T062814Z",
+    "tags": [
+      "dan",
+      "dan: planning"
+    ]
+  },
+  {
+    "id": 272,
+    "start": "20240902T070002Z",
+    "end": "20240902T083050Z",
+    "tags": [
+      "dan",
+      "dan: planning"
+    ]
+  },
+  {
+    "id": 271,
+    "start": "20240902T084112Z",
+    "end": "20240902T085006Z",
+    "tags": [
+      "reportronic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 270,
+    "start": "20240902T093242Z",
+    "end": "20240902T104652Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 269,
+    "start": "20240902T110809Z",
+    "end": "20240902T121844Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 268,
+    "start": "20240902T124935Z",
+    "end": "20240902T130149Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 267,
+    "start": "20240903T034050Z",
+    "end": "20240903T034256Z",
+    "tags": [
+      "daily planning",
+      "ttv"
+    ]
+  },
+  {
+    "id": 266,
+    "start": "20240903T034258Z",
+    "end": "20240903T041030Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 265,
+    "start": "20240903T041037Z",
+    "end": "20240903T041931Z",
+    "tags": [
+      "course registrations",
+      "ttv"
+    ]
+  },
+  {
+    "id": 264,
+    "start": "20240903T043037Z",
+    "end": "20240903T050844Z",
+    "tags": [
+      "dan",
+      "dan: planning"
+    ]
+  },
+  {
+    "id": 263,
+    "start": "20240903T053127Z",
+    "end": "20240903T064430Z",
+    "tags": [
+      "dan",
+      "dan: planning"
+    ]
+  },
+  {
+    "id": 262,
+    "start": "20240903T065526Z",
+    "end": "20240903T072737Z",
+    "tags": [
+      "dan",
+      "dan: planning"
+    ]
+  },
+  {
+    "id": 261,
+    "start": "20240903T082209Z",
+    "end": "20240903T090742Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 260,
+    "start": "20240903T091153Z",
+    "end": "20240903T094843Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 259,
+    "start": "20240903T094852Z",
+    "end": "20240903T095410Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 258,
+    "start": "20240903T100016Z",
+    "end": "20240903T111515Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 257,
+    "start": "20240903T120200Z",
+    "end": "20240903T134402Z",
+    "tags": [
+      "discrete: teaching fi",
+      "ttv"
+    ]
+  },
+  {
+    "id": 256,
+    "start": "20240903T140543Z",
+    "end": "20240903T160612Z",
+    "tags": [
+      "dan",
+      "dan: teaching"
+    ]
+  },
+  {
+    "id": 255,
+    "start": "20240903T173640Z",
+    "end": "20240903T174141Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 254,
+    "start": "20240904T035745Z",
+    "end": "20240904T042400Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 253,
+    "start": "20240904T042948Z",
+    "end": "20240904T044250Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 252,
+    "start": "20240904T044253Z",
+    "end": "20240904T060356Z",
+    "tags": [
+      "dan",
+      "dan: planning"
+    ]
+  },
+  {
+    "id": 251,
+    "start": "20240904T062706Z",
+    "end": "20240904T070316Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 250,
+    "start": "20240904T072543Z",
+    "end": "20240904T080245Z",
+    "tags": [
+      "eparking-ongelmat",
+      "ttv"
+    ]
+  },
+  {
+    "id": 249,
+    "start": "20240904T083429Z",
+    "end": "20240904T101135Z",
+    "tags": [
+      "discrete: teaching fi",
+      "ttv"
+    ]
+  },
+  {
+    "id": 248,
+    "start": "20240904T102723Z",
+    "end": "20240904T104225Z",
+    "tags": [
+      "eparking-ongelmat",
+      "ttv"
+    ]
+  },
+  {
+    "id": 247,
+    "start": "20240904T104435Z",
+    "end": "20240904T105558Z",
+    "tags": [
+      "dan",
+      "vanhaa valintakoetta pystyyn",
+      "yfs"
+    ]
+  },
+  {
+    "id": 246,
+    "start": "20240904T112635Z",
+    "end": "20240904T124602Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 245,
+    "start": "20240904T131526Z",
+    "end": "20240904T142244Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 244,
+    "start": "20240905T045734Z",
+    "end": "20240905T050936Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 243,
+    "start": "20240905T061455Z",
+    "end": "20240905T080412Z",
+    "tags": [
+      "discrete: teaching en",
+      "tic"
+    ]
+  },
+  {
+    "id": 242,
+    "start": "20240905T082009Z",
+    "end": "20240905T092255Z",
+    "tags": [
+      "dan",
+      "dan: planning"
+    ]
+  },
+  {
+    "id": 241,
+    "start": "20240905T100539Z",
+    "end": "20240905T105711Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 240,
+    "start": "20240905T114316Z",
+    "end": "20240905T122609Z",
+    "tags": [
+      "dan",
+      "vanhaa valintakoetta pystyyn",
+      "yfs"
+    ]
+  },
+  {
+    "id": 239,
+    "start": "20240905T124302Z",
+    "end": "20240905T132608Z",
+    "tags": [
+      "tic",
+      "ttv",
+      "valintakoe - windows vm",
+      "yfs"
+    ]
+  },
+  {
+    "id": 238,
+    "start": "20240906T041028Z",
+    "end": "20240906T042519Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 237,
+    "start": "20240906T042636Z",
+    "end": "20240906T061438Z",
+    "tags": [
+      "discrete: teaching fi",
+      "ttv"
+    ]
+  },
+  {
+    "id": 236,
+    "start": "20240906T063257Z",
+    "end": "20240906T063433Z",
+    "tags": [
+      "discrete: videos teams --> onedrive",
+      "ttv"
+    ]
+  },
+  {
+    "id": 235,
+    "start": "20240908T091456Z",
+    "end": "20240908T095723Z",
+    "tags": [
+      "dan",
+      "dan: planning"
+    ]
+  },
+  {
+    "id": 234,
+    "start": "20240908T124343Z",
+    "end": "20240908T133203Z",
+    "tags": [
+      "dan",
+      "dan: planning"
+    ]
+  },
+  {
+    "id": 233,
+    "start": "20240909T071618Z",
+    "end": "20240909T074206Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 232,
+    "start": "20240909T081357Z",
+    "end": "20240909T091325Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 231,
+    "start": "20240909T091328Z",
+    "end": "20240909T091927Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 230,
+    "start": "20240909T094549Z",
+    "end": "20240909T102515Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 229,
+    "start": "20240909T110819Z",
+    "end": "20240909T112035Z",
+    "tags": [
+      "dan",
+      "dan: planning"
+    ]
+  },
+  {
+    "id": 228,
+    "start": "20240909T112057Z",
+    "end": "20240909T114500Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 227,
+    "start": "20240909T115856Z",
+    "end": "20240909T121658Z",
+    "tags": [
+      "tic",
+      "valintakoe: tsek-palaveri"
+    ]
+  },
+  {
+    "id": 226,
+    "start": "20240909T121710Z",
+    "end": "20240909T124618Z",
+    "tags": [
+      "dan",
+      "eahot dan"
+    ]
+  },
+  {
+    "id": 225,
+    "start": "20240910T042954Z",
+    "end": "20240910T043109Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 224,
+    "start": "20240910T043113Z",
+    "end": "20240910T043757Z",
+    "tags": [
+      "dan",
+      "eahot dan"
+    ]
+  },
+  {
+    "id": 223,
+    "start": "20240910T043802Z",
+    "end": "20240910T051206Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 222,
+    "start": "20240910T061455Z",
+    "end": "20240910T072018Z",
+    "tags": [
+      "dan",
+      "dan: planning"
+    ]
+  },
+  {
+    "id": 221,
+    "start": "20240910T074110Z",
+    "end": "20240910T094051Z",
+    "tags": [
+      "dan",
+      "dan: planning"
+    ]
+  },
+  {
+    "id": 220,
+    "start": "20240910T100041Z",
+    "end": "20240910T101239Z",
+    "tags": [
+      "dan",
+      "vanhaa valintakoetta pystyyn",
+      "yfs"
+    ]
+  },
+  {
+    "id": 219,
+    "start": "20240910T101242Z",
+    "end": "20240910T101820Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 218,
+    "start": "20240910T101826Z",
+    "end": "20240910T105837Z",
+    "tags": [
+      "dan",
+      "vanhaa valintakoetta pystyyn",
+      "yfs"
+    ]
+  },
+  {
+    "id": 217,
+    "start": "20240910T121125Z",
+    "end": "20240910T134627Z",
+    "tags": [
+      "discrete: teaching fi",
+      "ttv"
+    ]
+  },
+  {
+    "id": 216,
+    "start": "20240910T141311Z",
+    "end": "20240910T162255Z",
+    "tags": [
+      "dan",
+      "dan: teaching"
+    ]
+  },
+  {
+    "id": 215,
+    "start": "20240911T050425Z",
+    "end": "20240911T052406Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 214,
+    "start": "20240911T052545Z",
+    "end": "20240911T054958Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 213,
+    "start": "20240911T061001Z",
+    "end": "20240911T063537Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 212,
+    "start": "20240911T064257Z",
+    "end": "20240911T064757Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 211,
+    "start": "20240911T064803Z",
+    "end": "20240911T070026Z",
+    "tags": [
+      "dan",
+      "vanhaa valintakoetta pystyyn",
+      "yfs"
+    ]
+  },
+  {
+    "id": 210,
+    "start": "20240911T070029Z",
+    "end": "20240911T070903Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 209,
+    "start": "20240911T070905Z",
+    "end": "20240911T075820Z",
+    "tags": [
+      "dan",
+      "vanhaa valintakoetta pystyyn",
+      "yfs"
+    ]
+  },
+  {
+    "id": 208,
+    "start": "20240911T084234Z",
+    "end": "20240911T101736Z",
+    "tags": [
+      "discrete: teaching fi",
+      "ttv"
+    ]
+  },
+  {
+    "id": 207,
+    "start": "20240911T133246Z",
+    "end": "20240911T141448Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 206,
+    "start": "20240912T062238Z",
+    "end": "20240912T080241Z",
+    "tags": [
+      "discrete: teaching en",
+      "tic"
+    ]
+  },
+  {
+    "id": 205,
+    "start": "20240912T095811Z",
+    "end": "20240912T110030Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 204,
+    "start": "20240912T115318Z",
+    "end": "20240912T121701Z",
+    "tags": [
+      "dan",
+      "vanhaa valintakoetta pystyyn",
+      "yfs"
+    ]
+  },
+  {
+    "id": 203,
+    "start": "20240912T124353Z",
+    "end": "20240912T140609Z",
+    "tags": [
+      "dan",
+      "vanhaa valintakoetta pystyyn",
+      "yfs"
+    ]
+  },
+  {
+    "id": 202,
+    "start": "20240912T142529Z",
+    "end": "20240912T152046Z",
+    "tags": [
+      "dan",
+      "vanhaa valintakoetta pystyyn",
+      "yfs"
+    ]
+  },
+  {
+    "id": 201,
+    "start": "20240912T152742Z",
+    "end": "20240912T165638Z",
+    "tags": [
+      "dan",
+      "vanhaa valintakoetta pystyyn",
+      "yfs"
+    ]
+  },
+  {
+    "id": 200,
+    "start": "20240912T174726Z",
+    "end": "20240912T192809Z",
+    "tags": [
+      "dan",
+      "vanhaa valintakoetta pystyyn",
+      "yfs"
+    ]
+  },
+  {
+    "id": 199,
+    "start": "20240913T042317Z",
+    "end": "20240913T060610Z",
+    "tags": [
+      "discrete: teaching fi",
+      "ttv"
+    ]
+  },
+  {
+    "id": 198,
+    "start": "20240913T060617Z",
+    "end": "20240913T061527Z",
+    "tags": [
+      "discrete: videos teams --> onedrive",
+      "ttv"
+    ]
+  },
+  {
+    "id": 197,
+    "start": "20240913T073101Z",
+    "end": "20240913T105210Z",
+    "tags": [
+      "dan",
+      "vanhaa valintakoetta pystyyn",
+      "yfs"
+    ]
+  },
+  {
+    "id": 196,
+    "start": "20240913T105508Z",
+    "end": "20240913T111801Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 195,
+    "start": "20240913T111831Z",
+    "end": "20240913T132547Z",
+    "tags": [
+      "discrete: grading",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 194,
+    "start": "20240915T055657Z",
+    "end": "20240915T062705Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 193,
+    "start": "20240915T063715Z",
+    "end": "20240915T064942Z",
+    "tags": [
+      "dan",
+      "dan: planning"
+    ]
+  },
+  {
+    "id": 192,
+    "start": "20240915T121225Z",
+    "end": "20240915T123735Z",
+    "tags": [
+      "dan",
+      "dan: planning"
+    ]
+  },
+  {
+    "id": 191,
+    "start": "20240916T045924Z",
+    "end": "20240916T050507Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 190,
+    "start": "20240916T050530Z",
+    "end": "20240916T052241Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 189,
+    "start": "20240916T053038Z",
+    "end": "20240916T060240Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 188,
+    "start": "20240916T062558Z",
+    "end": "20240916T065403Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 187,
+    "start": "20240916T071036Z",
+    "end": "20240916T074143Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 186,
+    "start": "20240916T075510Z",
+    "end": "20240916T082126Z",
+    "tags": [
+      "resurssipalaveri",
+      "ttv"
+    ]
+  },
+  {
+    "id": 185,
+    "start": "20240916T082220Z",
+    "end": "20240916T083101Z",
+    "tags": [
+      "tic",
+      "valintakoe tic"
+    ]
+  },
+  {
+    "id": 184,
+    "start": "20240916T085931Z",
+    "end": "20240916T100426Z",
+    "tags": [
+      "perehdytyspalaveri",
+      "ttv"
+    ]
+  },
+  {
+    "id": 183,
+    "start": "20240916T110021Z",
+    "end": "20240916T113600Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 182,
+    "start": "20240916T114449Z",
+    "end": "20240916T124737Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 181,
+    "start": "20240916T131859Z",
+    "end": "20240916T142816Z",
+    "tags": [
+      "dan",
+      "dan: planning"
+    ]
+  },
+  {
+    "id": 180,
+    "start": "20240917T044742Z",
+    "end": "20240917T053009Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 179,
+    "start": "20240917T054108Z",
+    "end": "20240917T062750Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 178,
+    "start": "20240917T063758Z",
+    "end": "20240917T073107Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 177,
+    "start": "20240917T073542Z",
+    "end": "20240917T085047Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 176,
+    "start": "20240917T085457Z",
+    "end": "20240917T090629Z",
+    "tags": [
+      "dan",
+      "dan: planning"
+    ]
+  },
+  {
+    "id": 175,
+    "start": "20240917T091606Z",
+    "end": "20240917T095013Z",
+    "tags": [
+      "dan",
+      "dan: planning"
+    ]
+  },
+  {
+    "id": 174,
+    "start": "20240917T100033Z",
+    "end": "20240917T104731Z",
+    "tags": [
+      "dan",
+      "dan: planning"
+    ]
+  },
+  {
+    "id": 173,
+    "start": "20240918T044604Z",
+    "end": "20240918T044724Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 172,
+    "start": "20240918T044738Z",
+    "end": "20240918T045906Z",
+    "tags": [
+      "dan",
+      "dan: recordings teams --> onedrive"
+    ]
+  },
+  {
+    "id": 171,
+    "start": "20240918T045913Z",
+    "end": "20240918T051915Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 170,
+    "start": "20240918T052440Z",
+    "end": "20240918T060745Z",
+    "tags": [
+      "dan",
+      "dan: planning"
+    ]
+  },
+  {
+    "id": 169,
+    "start": "20240918T061308Z",
+    "end": "20240918T075121Z",
+    "tags": [
+      "dan",
+      "dan: planning"
+    ]
+  },
+  {
+    "id": 168,
+    "start": "20240918T084026Z",
+    "end": "20240918T101307Z",
+    "tags": [
+      "discrete: teaching fi",
+      "ttv"
+    ]
+  },
+  {
+    "id": 167,
+    "start": "20240918T101328Z",
+    "end": "20240918T102322Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 166,
+    "start": "20240918T112312Z",
+    "end": "20240918T112509Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 165,
+    "start": "20240918T112526Z",
+    "end": "20240918T113714Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 164,
+    "start": "20240918T113725Z",
+    "end": "20240918T115954Z",
+    "tags": [
+      "dan",
+      "vanhaa valintakoetta pystyyn",
+      "yfs"
+    ]
+  },
+  {
+    "id": 163,
+    "start": "20240918T122956Z",
+    "end": "20240918T142133Z",
+    "tags": [
+      "dan",
+      "vanhaa valintakoetta pystyyn",
+      "yfs"
+    ]
+  },
+  {
+    "id": 162,
+    "start": "20240919T043854Z",
+    "end": "20240919T052111Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 161,
+    "start": "20240919T052449Z",
+    "end": "20240919T054605Z",
+    "tags": [
+      "dan",
+      "dan: planning"
+    ]
+  },
+  {
+    "id": 160,
+    "start": "20240919T062409Z",
+    "end": "20240919T080050Z",
+    "tags": [
+      "discrete: teaching en",
+      "tic"
+    ]
+  },
+  {
+    "id": 159,
+    "start": "20240919T084750Z",
+    "end": "20240919T094250Z",
+    "tags": [
+      "dan",
+      "dan: planning"
+    ]
+  },
+  {
+    "id": 158,
+    "start": "20240919T095821Z",
+    "end": "20240919T110350Z",
+    "tags": [
+      "dan",
+      "vanhaa valintakoetta pystyyn",
+      "yfs"
+    ]
+  },
+  {
+    "id": 157,
+    "start": "20240919T112135Z",
+    "end": "20240919T121453Z",
+    "tags": [
+      "dan",
+      "vanhaa valintakoetta pystyyn",
+      "yfs"
+    ]
+  },
+  {
+    "id": 156,
+    "start": "20240920T042348Z",
+    "end": "20240920T060144Z",
+    "tags": [
+      "discrete: teaching fi",
+      "ttv"
+    ]
+  },
+  {
+    "id": 155,
+    "start": "20240920T060153Z",
+    "end": "20240920T060533Z",
+    "tags": [
+      "discrete: videos teams --> onedrive",
+      "ttv"
+    ]
+  },
+  {
+    "id": 154,
+    "start": "20240923T043845Z",
+    "end": "20240923T052933Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 153,
+    "start": "20240923T052954Z",
+    "end": "20240923T062956Z",
+    "tags": [
+      "teknoinfo",
+      "ttv"
+    ]
+  },
+  {
+    "id": 152,
+    "start": "20240923T064008Z",
+    "end": "20240923T072300Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 151,
+    "start": "20240923T081223Z",
+    "end": "20240923T081751Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 150,
+    "start": "20240923T084133Z",
+    "end": "20240923T094542Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 149,
+    "start": "20240923T095057Z",
+    "end": "20240923T104740Z",
+    "tags": [
+      "dan",
+      "dan: planning"
+    ]
+  },
+  {
+    "id": 148,
+    "start": "20240923T110747Z",
+    "end": "20240923T121319Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 147,
+    "start": "20240923T122251Z",
+    "end": "20240923T125811Z",
+    "tags": [
+      "dan",
+      "dan: planning"
+    ]
+  },
+  {
+    "id": 146,
+    "start": "20240923T135703Z",
+    "end": "20240923T150631Z",
+    "tags": [
+      "discrete: grading",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 145,
+    "start": "20240923T150642Z",
+    "end": "20240923T152610Z",
+    "tags": [
+      "tic",
+      "valintakoe tic"
+    ]
+  },
+  {
+    "id": 144,
+    "start": "20240924T050222Z",
+    "end": "20240924T053657Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 143,
+    "start": "20240924T053713Z",
+    "end": "20240924T060455Z",
+    "tags": [
+      "peppi calendar fiddling",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 142,
+    "start": "20240924T061457Z",
+    "end": "20240924T075618Z",
+    "tags": [
+      "discrete: attendance & peppi fiddling",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 141,
+    "start": "20240924T075801Z",
+    "end": "20240924T080423Z",
+    "tags": [
+      "tic",
+      "valintakoe tic"
+    ]
+  },
+  {
+    "id": 140,
+    "start": "20240924T091311Z",
+    "end": "20240924T095331Z",
+    "tags": [
+      "dan",
+      "dan: planning"
+    ]
+  },
+  {
+    "id": 139,
+    "start": "20240924T095926Z",
+    "end": "20240924T105719Z",
+    "tags": [
+      "tic",
+      "valintakoe: tsek-palaveri"
+    ]
+  },
+  {
+    "id": 138,
+    "start": "20240924T111019Z",
+    "end": "20240924T114845Z",
+    "tags": [
+      "dan",
+      "dan: planning"
+    ]
+  },
+  {
+    "id": 137,
+    "start": "20240924T115359Z",
+    "end": "20240924T120405Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 136,
+    "start": "20240924T121222Z",
+    "end": "20240924T134906Z",
+    "tags": [
+      "discrete: teaching fi",
+      "ttv"
+    ]
+  },
+  {
+    "id": 135,
+    "start": "20240924T140949Z",
+    "end": "20240924T161745Z",
+    "tags": [
+      "dan",
+      "dan: teaching"
+    ]
+  },
+  {
+    "id": 134,
+    "start": "20240925T045006Z",
+    "end": "20240925T050102Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 133,
+    "start": "20240925T050125Z",
+    "end": "20240925T054701Z",
+    "tags": [
+      "dan",
+      "dan: grading"
+    ]
+  },
+  {
+    "id": 132,
+    "start": "20240925T055808Z",
+    "end": "20240925T062605Z",
+    "tags": [
+      "dan",
+      "dan: grading"
+    ]
+  },
+  {
+    "id": 131,
+    "start": "20240925T063843Z",
+    "end": "20240925T075044Z",
+    "tags": [
+      "dan",
+      "dan: grading"
+    ]
+  },
+  {
+    "id": 130,
+    "start": "20240925T082311Z",
+    "end": "20240925T083938Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 129,
+    "start": "20240925T083942Z",
+    "end": "20240925T102258Z",
+    "tags": [
+      "discrete: teaching fi",
+      "ttv"
+    ]
+  },
+  {
+    "id": 128,
+    "start": "20240925T110816Z",
+    "end": "20240925T112316Z",
+    "tags": [
+      "discrete: attendance & peppi fiddling",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 127,
+    "start": "20240925T112337Z",
+    "end": "20240925T113655Z",
+    "tags": [
+      "discrete: grading",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 126,
+    "start": "20240925T113718Z",
+    "end": "20240925T114719Z",
+    "tags": [
+      "dan",
+      "dan: grading"
+    ]
+  },
+  {
+    "id": 125,
+    "start": "20240925T122703Z",
+    "end": "20240925T133948Z",
+    "tags": [
+      "dan",
+      "dan: planning"
+    ]
+  },
+  {
+    "id": 124,
+    "start": "20240926T041948Z",
+    "end": "20240926T043916Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 123,
+    "start": "20240926T043918Z",
+    "end": "20240926T052604Z",
+    "tags": [
+      "discrete: videos fin --> eng",
+      "tic"
+    ]
+  },
+  {
+    "id": 122,
+    "start": "20240926T052613Z",
+    "end": "20240926T062554Z",
+    "tags": [
+      "dan",
+      "dan: planning"
+    ]
+  },
+  {
+    "id": 121,
+    "start": "20240926T062638Z",
+    "end": "20240926T080921Z",
+    "tags": [
+      "discrete: teaching en",
+      "tic"
+    ]
+  },
+  {
+    "id": 120,
+    "start": "20240926T095056Z",
+    "end": "20240926T095430Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 119,
+    "start": "20240926T095448Z",
+    "end": "20240926T112748Z",
+    "tags": [
+      "dan",
+      "dan: grading"
+    ]
+  },
+  {
+    "id": 118,
+    "start": "20240927T035747Z",
+    "end": "20240927T042525Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 117,
+    "start": "20240927T042541Z",
+    "end": "20240927T060413Z",
+    "tags": [
+      "discrete: teaching fi",
+      "ttv"
+    ]
+  },
+  {
+    "id": 116,
+    "start": "20240927T060426Z",
+    "end": "20240927T063208Z",
+    "tags": [
+      "discrete: videos teams --> onedrive",
+      "ttv"
+    ]
+  },
+  {
+    "id": 115,
+    "start": "20240927T092225Z",
+    "end": "20240927T092822Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 114,
+    "start": "20240927T092835Z",
+    "end": "20240927T101844Z",
+    "tags": [
+      "discrete: grading",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 113,
+    "start": "20240927T103232Z",
+    "end": "20240927T115344Z",
+    "tags": [
+      "discrete: grading",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 112,
+    "start": "20240929T055425Z",
+    "end": "20240929T055629Z",
+    "tags": [
+      "daily planning",
+      "ttv"
+    ]
+  },
+  {
+    "id": 111,
+    "start": "20240929T055630Z",
+    "end": "20240929T064215Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 110,
+    "start": "20240929T064800Z",
+    "end": "20240929T073837Z",
+    "tags": [
+      "pedacafe-esitys"
+    ]
+  },
+  {
+    "id": 109,
+    "start": "20240929T091223Z",
+    "end": "20240929T092401Z",
+    "tags": [
+      "pedacafe-esitys",
+      "ttv"
+    ]
+  },
+  {
+    "id": 108,
+    "start": "20240929T093822Z",
+    "end": "20240929T111907Z",
+    "tags": [
+      "pedacafe-esitys",
+      "ttv"
+    ]
+  },
+  {
+    "id": 107,
+    "start": "20240929T123301Z",
+    "end": "20240929T134246Z",
+    "tags": [
+      "pedacafe-esitys",
+      "ttv"
+    ]
+  },
+  {
+    "id": 106,
+    "start": "20240929T140315Z",
+    "end": "20240929T153944Z",
+    "tags": [
+      "pedacafe-esitys",
+      "ttv"
+    ]
+  },
+  {
+    "id": 105,
+    "start": "20240929T154532Z",
+    "end": "20240929T163536Z",
+    "tags": [
+      "pedacafe-esitys",
+      "ttv"
+    ]
+  },
+  {
+    "id": 104,
+    "start": "20240930T052738Z",
+    "end": "20240930T063456Z",
+    "tags": [
+      "it-info",
+      "ttv"
+    ]
+  },
+  {
+    "id": 103,
+    "start": "20240930T070603Z",
+    "end": "20240930T072643Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 102,
+    "start": "20240930T072803Z",
+    "end": "20240930T073602Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 101,
+    "start": "20240930T080926Z",
+    "end": "20240930T083457Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 100,
+    "start": "20240930T092453Z",
+    "end": "20240930T110307Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 99,
+    "start": "20240930T113556Z",
+    "end": "20240930T122140Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 98,
+    "start": "20240930T123226Z",
+    "end": "20240930T125259Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 97,
+    "start": "20240930T125730Z",
+    "end": "20240930T142621Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 96,
+    "start": "20240930T151949Z",
+    "end": "20240930T154840Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 95,
+    "start": "20240930T155728Z",
+    "end": "20240930T170929Z",
+    "tags": [
+      "dan",
+      "dan: planning"
+    ]
+  },
+  {
+    "id": 94,
+    "start": "20240930T172427Z",
+    "end": "20240930T183518Z",
+    "tags": [
+      "dan",
+      "dan: planning"
+    ]
+  },
+  {
+    "id": 93,
+    "start": "20241001T051403Z",
+    "end": "20241001T055714Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 92,
+    "start": "20241001T060521Z",
+    "end": "20241001T073528Z",
+    "tags": [
+      "dan",
+      "dan: planning"
+    ]
+  },
+  {
+    "id": 91,
+    "start": "20241001T073958Z",
+    "end": "20241001T084319Z",
+    "tags": [
+      "dan",
+      "dan: planning"
+    ]
+  },
+  {
+    "id": 90,
+    "start": "20241001T084722Z",
+    "end": "20241001T090013Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 89,
+    "start": "20241001T094417Z",
+    "end": "20241001T102415Z",
+    "tags": [
+      "dan",
+      "dan: planning"
+    ]
+  },
+  {
+    "id": 88,
+    "start": "20241001T102418Z",
+    "end": "20241001T103549Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 87,
+    "start": "20241001T115116Z",
+    "end": "20241001T121303Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 86,
+    "start": "20241001T121401Z",
+    "end": "20241001T134632Z",
+    "tags": [
+      "discrete: teaching fi",
+      "ttv"
+    ]
+  },
+  {
+    "id": 85,
+    "start": "20241001T141301Z",
+    "end": "20241001T160103Z",
+    "tags": [
+      "dan",
+      "dan: teaching"
+    ]
+  },
+  {
+    "id": 84,
+    "start": "20241002T055228Z",
+    "end": "20241002T060917Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 83,
+    "start": "20241002T060920Z",
+    "end": "20241002T061406Z",
+    "tags": [
+      "dan",
+      "dan: planning"
+    ]
+  },
+  {
+    "id": 82,
+    "start": "20241002T061409Z",
+    "end": "20241002T062951Z",
+    "tags": [
+      "dan",
+      "dan: recordings teams --> onedrive"
+    ]
+  },
+  {
+    "id": 81,
+    "start": "20241002T062954Z",
+    "end": "20241002T072644Z",
+    "tags": [
+      "dan",
+      "dan: planning"
+    ]
+  },
+  {
+    "id": 80,
+    "start": "20241002T084322Z",
+    "end": "20241002T111041Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 79,
+    "start": "20241002T112801Z",
+    "end": "20241002T113037Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 78,
+    "start": "20241002T113043Z",
+    "end": "20241002T130601Z",
+    "tags": [
+      "reportronic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 77,
+    "start": "20241003T062700Z",
+    "end": "20241003T080002Z",
+    "tags": [
+      "discrete: teaching en",
+      "tic"
+    ]
+  },
+  {
+    "id": 76,
+    "start": "20241003T084206Z",
+    "end": "20241003T094748Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 75,
+    "start": "20241003T095203Z",
+    "end": "20241003T101954Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 74,
+    "start": "20241003T102732Z",
+    "end": "20241003T121202Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 73,
+    "start": "20241004T041234Z",
+    "end": "20241004T042253Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 72,
+    "start": "20241004T042256Z",
+    "end": "20241004T042549Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 71,
+    "start": "20241004T042554Z",
+    "end": "20241004T055923Z",
+    "tags": [
+      "discrete: teaching fi",
+      "ttv"
+    ]
+  },
+  {
+    "id": 70,
+    "start": "20241004T060849Z",
+    "end": "20241004T061615Z",
+    "tags": [
+      "discrete: videos teams --> onedrive",
+      "ttv"
+    ]
+  },
+  {
+    "id": 69,
+    "start": "20241004T073402Z",
+    "end": "20241004T074535Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 68,
+    "start": "20241004T074651Z",
+    "end": "20241004T082255Z",
+    "tags": [
+      "dan",
+      "dan: planning"
+    ]
+  },
+  {
+    "id": 67,
+    "start": "20241004T082544Z",
+    "end": "20241004T091813Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 66,
+    "start": "20241006T121330Z",
+    "end": "20241006T121655Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 65,
+    "start": "20241006T121705Z",
+    "end": "20241006T123705Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 64,
+    "start": "20241006T125524Z",
+    "end": "20241006T131543Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 63,
+    "start": "20241007T042124Z",
+    "end": "20241007T042635Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 62,
+    "start": "20241007T042638Z",
+    "end": "20241007T050408Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 61,
+    "start": "20241008T045134Z",
+    "end": "20241008T050547Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 60,
+    "start": "20241008T050702Z",
+    "end": "20241008T052327Z",
+    "tags": [
+      "dan",
+      "e-ahot dan"
+    ]
+  },
+  {
+    "id": 59,
+    "start": "20241008T061403Z",
+    "end": "20241008T072458Z",
+    "tags": [
+      "dan",
+      "dan: planning"
+    ]
+  },
+  {
+    "id": 58,
+    "start": "20241008T073522Z",
+    "end": "20241008T080346Z",
+    "tags": [
+      "dan",
+      "dan: planning"
+    ]
+  },
+  {
+    "id": 57,
+    "start": "20241008T095635Z",
+    "end": "20241008T113004Z",
+    "tags": [
+      "daily planning",
+      "ttv"
+    ]
+  },
+  {
+    "id": 56,
+    "start": "20241008T113024Z",
+    "end": "20241008T114720Z",
+    "tags": [
+      "perehdytystyoryhma",
+      "ttv"
+    ]
+  },
+  {
+    "id": 55,
+    "start": "20241008T114729Z",
+    "end": "20241008T115441Z",
+    "tags": [
+      "tic",
+      "valintakoe tic"
+    ]
+  },
+  {
+    "id": 54,
+    "start": "20241008T121105Z",
+    "end": "20241008T122413Z",
+    "tags": [
+      "dan",
+      "dan: planning"
+    ]
+  },
+  {
+    "id": 53,
+    "start": "20241008T122702Z",
+    "end": "20241008T130958Z",
+    "tags": [
+      "tic",
+      "valintakoe tic"
+    ]
+  },
+  {
+    "id": 52,
+    "start": "20241008T131008Z",
+    "end": "20241008T131618Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 51,
+    "start": "20241008T140502Z",
+    "end": "20241008T161004Z",
+    "tags": [
+      "dan",
+      "dan: teaching"
+    ]
+  },
+  {
+    "id": 50,
+    "start": "20241009T062326Z",
+    "end": "20241009T070259Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 49,
+    "start": "20241009T070312Z",
+    "end": "20241009T071416Z",
+    "tags": [
+      "exam fix",
+      "ttv"
+    ]
+  },
+  {
+    "id": 48,
+    "start": "20241009T083937Z",
+    "end": "20241009T084404Z",
+    "tags": [
+      "dan",
+      "dan: planning"
+    ]
+  },
+  {
+    "id": 47,
+    "start": "20241009T084406Z",
+    "end": "20241009T085158Z",
+    "tags": [
+      "perehdytystyoryhma",
+      "ttv"
+    ]
+  },
+  {
+    "id": 46,
+    "start": "20241009T085201Z",
+    "end": "20241009T090950Z",
+    "tags": [
+      "dan",
+      "dan: planning"
+    ]
+  },
+  {
+    "id": 45,
+    "start": "20241009T093229Z",
+    "end": "20241009T121456Z",
+    "tags": [
+      "dan",
+      "dan: planning"
+    ]
+  },
+  {
+    "id": 44,
+    "start": "20241010T050212Z",
+    "end": "20241010T051140Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 43,
+    "start": "20241010T051143Z",
+    "end": "20241010T055231Z",
+    "tags": [
+      "dan",
+      "dan: planning"
+    ]
+  },
+  {
+    "id": 42,
+    "start": "20241010T060157Z",
+    "end": "20241010T064659Z",
+    "tags": [
+      "perehdytyspalaveri",
+      "ttv"
+    ]
+  },
+  {
+    "id": 41,
+    "start": "20241010T065204Z",
+    "end": "20241010T073453Z",
+    "tags": [
+      "perehdytystyoryhma",
+      "ttv"
+    ]
+  },
+  {
+    "id": 40,
+    "start": "20241010T073516Z",
+    "end": "20241010T075206Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 39,
+    "start": "20241010T075209Z",
+    "end": "20241010T081028Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 38,
+    "start": "20241010T081030Z",
+    "end": "20241010T081929Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 37,
+    "start": "20241010T082029Z",
+    "end": "20241010T084054Z",
+    "tags": [
+      "course registrations",
+      "ttv"
+    ]
+  },
+  {
+    "id": 36,
+    "start": "20241010T091949Z",
+    "end": "20241010T093545Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 35,
+    "start": "20241010T094244Z",
+    "end": "20241010T102707Z",
+    "tags": [
+      "discrete: grading",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 34,
+    "start": "20241011T042650Z",
+    "end": "20241011T043642Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 33,
+    "start": "20241011T043648Z",
+    "end": "20241011T044429Z",
+    "tags": [
+      "perehdytystyoryhma",
+      "ttv"
+    ]
+  },
+  {
+    "id": 32,
+    "start": "20241011T070906Z",
+    "end": "20241011T071339Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 31,
+    "start": "20241011T071345Z",
+    "end": "20241011T075435Z",
+    "tags": [
+      "dan",
+      "dan: grading"
+    ]
+  },
+  {
+    "id": 30,
+    "start": "20241011T080736Z",
+    "end": "20241011T085739Z",
+    "tags": [
+      "dan",
+      "dan: grading"
+    ]
+  },
+  {
+    "id": 29,
+    "start": "20241011T095050Z",
+    "end": "20241011T110145Z",
+    "tags": [
+      "dan",
+      "dan: grading"
+    ]
+  },
+  {
+    "id": 28,
+    "start": "20241011T122226Z",
+    "end": "20241011T132030Z",
+    "tags": [
+      "dan",
+      "dan: planning"
+    ]
+  },
+  {
+    "id": 27,
+    "start": "20241016T101002Z",
+    "end": "20241016T134223Z",
+    "tags": [
+      "moodle, peppi, teams etc (general new start fiddling for all courses)",
+      "ttv"
+    ]
+  },
+  {
+    "id": 26,
+    "start": "20241017T062227Z",
+    "end": "20241017T062659Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 25,
+    "start": "20241017T062718Z",
+    "end": "20241017T065308Z",
+    "tags": [
+      "math1: planning",
+      "tic"
+    ]
+  },
+  {
+    "id": 24,
+    "start": "20241017T073320Z",
+    "end": "20241017T085223Z",
+    "tags": [
+      "moodle, peppi, teams etc (general new start fiddling for all courses)",
+      "ttv"
+    ]
+  },
+  {
+    "id": 23,
+    "start": "20241018T061129Z",
+    "end": "20241018T070559Z",
+    "tags": [
+      "math1: planning",
+      "tic"
+    ]
+  },
+  {
+    "id": 22,
+    "start": "20241018T070604Z",
+    "end": "20241018T074254Z",
+    "tags": [
+      "dan",
+      "dan: planning"
+    ]
+  },
+  {
+    "id": 21,
+    "start": "20241018T080348Z",
+    "end": "20241020T140724Z",
+    "tags": [
+      "dan",
+      "dan: planning"
+    ]
+  },
+  {
+    "id": 20,
+    "start": "20241021T050747Z",
+    "end": "20241021T051409Z",
+    "tags": [
+      "daily planning",
+      "ttv"
+    ]
+  },
+  {
+    "id": 19,
+    "start": "20241021T051441Z",
+    "end": "20241021T051707Z",
+    "tags": [
+      "dan",
+      "dan: planning"
+    ]
+  },
+  {
+    "id": 18,
+    "start": "20241021T051713Z",
+    "end": "20241021T052701Z",
+    "tags": [
+      "moodle, peppi, teams etc (general new start fiddling for all courses)",
+      "ttv"
+    ]
+  },
+  {
+    "id": 17,
+    "start": "20241021T062841Z",
+    "end": "20241021T071543Z",
+    "tags": [
+      "it-info",
+      "ttv"
+    ]
+  },
+  {
+    "id": 16,
+    "start": "20241021T080818Z",
+    "end": "20241021T082002Z",
+    "tags": [
+      "daily planning",
+      "ttv"
+    ]
+  },
+  {
+    "id": 15,
+    "start": "20241021T082021Z",
+    "end": "20241021T101506Z",
+    "tags": [
+      "onm: planning",
+      "ttv"
+    ]
+  },
+  {
+    "id": 14,
+    "start": "20241021T102500Z",
+    "end": "20241021T124502Z",
+    "tags": [
+      "onm: teaching",
+      "ttv"
+    ]
+  },
+  {
+    "id": 13,
+    "start": "20241021T130340Z",
+    "end": "20241021T132642Z",
+    "tags": [
+      "daily planning",
+      "ttv"
+    ]
+  },
+  {
+    "id": 12,
+    "start": "20241021T140719Z",
+    "end": "20241021T150430Z",
+    "tags": [
+      "onm: planning",
+      "ttv"
+    ]
+  },
+  {
+    "id": 11,
+    "start": "20241021T151222Z",
+    "end": "20241021T154724Z",
+    "tags": [
+      "dan",
+      "dan: planning"
+    ]
+  },
+  {
+    "id": 10,
+    "start": "20241021T155318Z",
+    "end": "20241021T161322Z",
+    "tags": [
+      "math1: planning",
+      "tic"
+    ]
+  },
+  {
+    "id": 9,
+    "start": "20241021T161332Z",
+    "end": "20241021T161740Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 8,
+    "start": "20241021T163746Z",
+    "end": "20241021T175713Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 7,
+    "start": "20241021T175716Z",
+    "end": "20241021T182730Z",
+    "tags": [
+      "dan",
+      "dan: planning"
+    ]
+  },
+  {
+    "id": 6,
+    "start": "20241022T064606Z",
+    "end": "20241022T070429Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 5,
+    "start": "20241022T070440Z",
+    "end": "20241022T072802Z",
+    "tags": [
+      "discrete: grading",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 4,
+    "start": "20241022T073602Z",
+    "end": "20241022T074804Z",
+    "tags": [
+      "communication",
+      "ttv"
+    ]
+  },
+  {
+    "id": 3,
+    "start": "20241022T080029Z",
+    "end": "20241022T083158Z",
+    "tags": [
+      "math1: planning",
+      "tic"
+    ]
+  },
+  {
+    "id": 2,
+    "start": "20241022T083201Z",
+    "end": "20241022T083639Z",
+    "tags": [
+      "discrete: planning",
+      "tic",
+      "ttv"
+    ]
+  },
+  {
+    "id": 1,
+    "start": "20241022T092650Z",
+    "end": "20241022T094336Z",
+    "tags": [
+      "dan",
+      "dan: planning"
+    ]
+  }
+]
