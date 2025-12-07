@@ -1,4 +1,11 @@
 import numpy as np
+'''
+.zeros()
+.ones()
+.full()
+.arange()
+.eye()
+'''
 
 print(np.zeros(5)) # [0. 0. 0. 0. 0.]
 array1_2d = np.zeros([2,3])
