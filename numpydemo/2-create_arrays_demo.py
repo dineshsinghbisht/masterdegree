@@ -5,6 +5,7 @@ import numpy as np
 .full()
 .arange()
 .eye()
+.empty()
 '''
 
 print(np.zeros(5)) # [0. 0. 0. 0. 0.]
@@ -31,4 +32,11 @@ print(array7) # [ 1  2  3  4  5  6  7  8  9 10]
 
 array8 = np.eye(4) # identity matrix
 print(array8)
+
+array9 = np.linspace(1,10,4) # identity matrix
+print(array9)
+
+array10 = np.random.rand(1,3)
+print(array10)
+
 
