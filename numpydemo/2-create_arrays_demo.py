@@ -1,9 +1,13 @@
 import numpy as np
+
 '''
 .zeros()
 .ones()
 .full()
 .arange()
+.random.rand()
+.random.random()
+.random.randint()
 .eye()
 .empty()
 '''

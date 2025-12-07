@@ -1,7 +1,7 @@
 import numpy as np
 
 array_2d = np.array([[1,2,3],[4,5,6]])
-print("shape or array array_2d: ", array_2d.shape)
+print("shape or array array_2d: ", array_2d.shape) # (2, 3)
 
 arr = np.arange(0,12)
 print("Original array arr is", arr)
