@@ -14,3 +14,4 @@ print("min of array_1 is", np.min(array_1))
 print("max of array_1 is", np.max(array_1))
 print("Standard deviation is", np.std(array_1)) # Standard deviation is 0.816496580927726
 print("Variance is", np.var(array_1)) # Variance is 0.6666666666666666
+print("cumsum of array_1 is", np.cumsum(array_1))
