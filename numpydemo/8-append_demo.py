@@ -1,8 +1,6 @@
 ## append vs concatenate
 ## np.append(arr, values, axis=None)
 
-
-
 import numpy as np
 
 array_1d = np.array([6,8,9,])
@@ -27,5 +25,5 @@ c is [[1 2]
  [5 6]] 
 '''
 
-#d = np.append(a, [[5, 6]], axis=1)
-# print("d is", d)
+d = np.append(a, [[5], [6]], axis=1)
+print("d is", d)
