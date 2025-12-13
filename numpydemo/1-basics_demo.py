@@ -33,8 +33,6 @@ print(f'itemsize of array_1d: {array_1d.itemsize}')         # 8
 # array_3d = np.array([[[1,2,3],[10,20,30]],[[4,5,6],[100,200,300]]])
 
 
-
-
 # print(f'value of array_2d: {array_2d}')
 # print(f'size of array_2d: {array_2d.size}')
 # print(f'dimension of array_2d: {array_2d.ndim}')
