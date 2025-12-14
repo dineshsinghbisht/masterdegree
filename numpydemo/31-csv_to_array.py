@@ -1,6 +1,4 @@
-import datetime
 import numpy as np
-import csv
 
 # Read entire CSV as strings to create a 2d array
 data = np.genfromtxt("details.csv", delimiter=",", dtype=str)

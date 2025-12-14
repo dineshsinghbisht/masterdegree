@@ -1,3 +1,6 @@
+'''
+Vectorization Versus Broadcasting
+'''
 import numpy as np
 
 arr = np.array(["john", "doe"])

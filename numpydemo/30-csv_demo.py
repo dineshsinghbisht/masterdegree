@@ -9,6 +9,7 @@ print("Full Data (including header):")
 print("-----")
 print(data.ndim)
 print(data.shape)
+print(data.dtype)
 print("-----")
 print(type(data))
 
