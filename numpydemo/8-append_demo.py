@@ -7,7 +7,7 @@ array_1d = np.array([6,8,9,])
 print(np.append(array_1d,10)) # [ 6  8  9 10]
 print(np.append(array_1d,[10,56,7,])) # [ 6  8  9 10 56  7]
 
-print(np.concatenate((array_1d,[34,5]))) ## [10 56  7 34  5] we use tuple to pass the arrays
+print(np.concatenate((array_1d,[34,5]))) ## [10 56 7 34  5] we use tuple to pass the arrays
 
 array_2d = np.array([[1,2,3],[4,5,6]])
 

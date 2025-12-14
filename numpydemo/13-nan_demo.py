@@ -8,7 +8,9 @@ import numpy as np
 
 a = np.array([[1, 2, np.nan],
               [4, 5, 6],
-              [7, np.nan, 9]])
+              [7, np.nan, 9],
+              [1,3,4]]
+              )
 print(~np.isnan(a).any(axis=1)) # its check if there is any nan in a row
 print(~np.isnan(a).any(axis=0)) # its check if there is any nan in a column all checks for all all the values in col
 print(a[~np.isnan(a).any(axis=1)]) # it drops rows

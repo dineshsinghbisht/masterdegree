@@ -7,7 +7,7 @@ import numpy as np
 
 # ## aggregation
 
-# print("sum of array_1 is", np.sum(array_1))
+# print("sum of array_1 is", np.sum(array_1)) # array.sum()
 # print("mean of array_1 is", np.mean(array_1))
 # print("median of array_1 is", np.median(array_1))
 # print("min of array_1 is", np.min(array_1))
