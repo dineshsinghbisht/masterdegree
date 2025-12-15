@@ -1,4 +1,4 @@
-## append vs concatenate
+## append vs concatenate (strict no broadcasting and reshaping)
 ## np.append(arr, values, axis=None)
 
 import numpy as np

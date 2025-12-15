@@ -3,7 +3,7 @@
 import numpy as np
 
 a = np.array([[1,2],[3,4]])
-b = np.array([[5,6]])
+b = np.array([[5,6]]) # np.array([5,6]) works too numpy does reshaping here
 c = np.array([[5],[6]])
 print("shape of a", a.shape)
 print("shape of b", b.shape)
