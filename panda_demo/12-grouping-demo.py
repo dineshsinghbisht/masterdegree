@@ -8,3 +8,19 @@ print("Columns are:", df.columns)
 print(df.head())
 grouped = df.groupby("City")["Age"].sum()
 print(grouped)
+
+
+df = pd.DataFrame({
+    "Department": ["IT", "IT", "HR", "HR", "Finance"],
+    "Salary": [60000, 65000, 50000, 52000, 70000],
+    "EmployeeID": [123, 456, 467, 23423, 9999]
+})
+
+print(df.groupby("Department")["Salary"].mean())
+print(df.groupby("Department", as_index=False)["Salary"].mean())
+print(df.groupby("Department")["Salary"].agg(["mean", "min", "max"]))
+
+df.groupby("Department").agg({
+    "Salary": ["mean", "sum"],
+    "EmployeeID": "count"
+})

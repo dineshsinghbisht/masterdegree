@@ -7,6 +7,5 @@ print("Shape is", df.shape)
 print("Columns are:", df.columns)
 print(df.head())
 
-df.sort_values(by=["Name", "Age"],inplace=True)
-
+df.sort_values(by=["Name", "Age"], inplace=True) # ascending=True|False
 print(df.head())

@@ -8,9 +8,7 @@ print("Columns are:", df.columns)
 
 df["Student"] = "Yes"
 df['is_less_than_25'] = np.where(df['Age'] < 25, 'Yes', 'No')
-
-print(df)
+print(df.head())
 
 df.insert(0,"Id", df["Age"]*20) ## insert(loc, "colname", value)
-
-print(df)
+print(df.head())

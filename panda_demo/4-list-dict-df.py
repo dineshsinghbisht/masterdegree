@@ -20,5 +20,15 @@ df = pd.DataFrame(data)
 print(df) # smart/truncated view (depends on DataFrame size & pandas settings).
 print(df.to_string()) # forces all rows and all columns.
 
+df = pd.DataFrame(
+    {"Age": [25, 30, 35]},
+    index=[10, 20, 30]
+)
+print(df)
+print(type(df))
 
-
+df = pd.DataFrame(
+    {"Age": [25, 30, 35]}
+)
+print(df)
+print(type(df))

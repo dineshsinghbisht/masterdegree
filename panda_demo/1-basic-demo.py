@@ -17,8 +17,9 @@ to_csv, to_json, to_excel - df.to_csv("filename", index=False)
 import pandas as pd
 
 df = pd.Series([1,2,3])
-# print(df)
-# print(type(df)) # <class 'pandas.core.series.Series'>
+print("Demo About Panda's Series")
+print(df)
+print(type(df)) # <class 'pandas.core.series.Series'>
 
 
 # read_csv, read_json, read_excel

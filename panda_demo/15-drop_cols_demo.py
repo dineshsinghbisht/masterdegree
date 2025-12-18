@@ -7,7 +7,7 @@
 # print(df)
 
 # # Drop multiple columns by name
-# df = df.drop(['A', 'C'], axis=1)
+# df = df.drop(['A', 'C'], axis=1) # no need to mention axis=1 its implied
 # print(df)
 
 import pandas as pd
@@ -24,12 +24,14 @@ print(df.columns)
 # Find columns with at least one NaN
 print(df)
 print(df.isnull().any())
+print(df.isnull())
+
 cols_with_nan = df.columns[df.isnull().any()]
 
 print("cols with nan")
 print(cols_with_nan)
 
-# Drop those columns
-df = df.drop(cols_with_nan, axis=1)
+# # Drop those columns
+# df = df.drop(cols_with_nan, axis=1)
 
-print(df)
+# print(df)
