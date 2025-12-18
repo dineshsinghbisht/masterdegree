@@ -19,8 +19,8 @@ print(df.isnull().all())
 # #print("Column 'A' has a NaN:", df['A'].isnull().any())
 # #print("Column 'C' has all NaNs:", df['C'].isnull().all())
 
-# print(df.isnull().any(axis=1))
-# print(df.isnull().all(axis=1))
+print(df.isnull().any(axis=1))
+print(df.isnull().all(axis=1))
 
 # df = df.dropna() # Drops a row if at least one column has NaN.
 # df = df.dropna(axis=1) # Removes any column that contains at least one NaN.
@@ -28,4 +28,15 @@ print(df.isnull().all())
 # df = df.dropna(subset=["Age", "Salary"]) # 
 # df = df.dropna(how="all") # Drop rows where all values are NaN
 # df = df.dropna(axis=1, how="all") # Drop cols where all values are NaN
+
+
+df.fillna(0) # fill NaN with zeros
+
+df.fillna({
+    "Age": df["Age"].mean(),
+    "Salary": 0
+})
+
+df.fillna(method="ffill") # NaN → take value above
+df.fillna(method="bfill") # NaN → take value below
 
