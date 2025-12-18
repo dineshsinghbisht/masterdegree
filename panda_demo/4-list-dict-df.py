@@ -3,12 +3,12 @@ students = [
     {"name": "Bob", "age": 22, "score": 90},
     {"name": "Charlie", "age": 23, "score": 88}
 ]
-
-print(students)
+# print(students)
 
 import pandas as pd
 df = pd.DataFrame(students)
-print(df)
+# print(df)
+print(df.index)
 
 data = {
     "Name": ["Alice", "Bob", "Charlie"],
@@ -16,19 +16,20 @@ data = {
     "City": ["New York", "London", "Paris"]
 }
 
-df = pd.DataFrame(data)
-print(df) # smart/truncated view (depends on DataFrame size & pandas settings).
-print(df.to_string()) # forces all rows and all columns.
+# df = pd.DataFrame(data)
+# print(df) # smart/truncated view (depends on DataFrame size & pandas settings).
+# print(df.to_string()) # forces all rows and all columns.
 
 df = pd.DataFrame(
     {"Age": [25, 30, 35]},
     index=[10, 20, 30]
 )
-print(df)
+print(df.index)
+# print(df)
 print(type(df))
 
 df = pd.DataFrame(
     {"Age": [25, 30, 35]}
 )
-print(df)
-print(type(df))
+# print(df)
+# print(type(df))

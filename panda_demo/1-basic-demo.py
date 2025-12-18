@@ -6,6 +6,7 @@ info() - df.info()
 describe() - df.describe()
 shape - df.shape()
 columns - df.columns
+index - df.index
 head() - df.head()
 tail() - df.tail
 read_csv, read_json, read_excel - pd.read_csv("filename")
