@@ -17,3 +17,4 @@ print(array2d[array2d % 2 == 0])
 print(array2d[np.where(array2d % 2 == 0)])
 
 print(np.where(array2d % 2 == 0, "Even", "Odd"))
+print(np.where(array2d[:,-1:] % 2 == 0, "Even", "Odd"))
