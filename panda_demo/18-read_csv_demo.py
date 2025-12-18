@@ -6,8 +6,8 @@ df = pd.read_csv("sample_students.csv")  # assumes you have a CSV file
 #print(df) # smart/truncated view (depends on DataFrame size & pandas settings)
 #print(df.to_string()) # forces all rows and all columns
 
-#print(df["Name"])       # Select a single column
-#print(df[["Name", "Age"]])  # Select multiple columns
+#print(df["Name"])       # Select a single column and return Series
+#print(df[["Name", "Age"]])  # Select multiple columns and returns DataFrame
 #print(df.iloc[0])       # First row by position
 #print(df.loc[1, "City"]) # Row 1, column "City"
 

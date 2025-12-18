@@ -16,8 +16,8 @@ df['is_less_than_25'] = np.where(df['Age'] < 25, 'Yes', 'No')
 
 print(df)
 
-df_first_col = df.iloc[:, :1] # retruns Series
-print(df_first_col)
+df_first_col = df.iloc[:, :1]
+print("df_first_col is \n", df_first_col)
 df_rest_cols = df.iloc[:, 1:]
 print(df_rest_cols)
 

@@ -1,19 +1,30 @@
 '''
-info()
-describe()
-shape
-columns
-head()
-tail()
-read_csv, read_json, read_excel
-to_csv, to_json, to_excel
+
+Series Vs DataFrame 
+type() - type(df)
+info() - df.info()
+describe() - df.describe()
+shape - df.shape()
+columns - df.columns
+head() - df.head()
+tail() - df.tail
+read_csv, read_json, read_excel - pd.read_csv("filename")
+to_csv, to_json, to_excel - df.to_csv("filename", index=False)
+.insert() - To insert new column at specific position
+
 '''
 
 import pandas as pd
 
+df = pd.Series([1,2,3])
+# print(df)
+# print(type(df)) # <class 'pandas.core.series.Series'>
+
+
 # read_csv, read_json, read_excel
 
 dataframe = pd.read_csv("sample_students.csv") # encoding="utf-8" or "latin1"
+# print(type(dataframe)) # <class 'pandas.core.frame.DataFrame'>
 # print(dataframe)
 # print(dataframe.head())
 # print(dataframe.tail())
@@ -50,7 +61,7 @@ min    19.000000
 max    40.000000
 '''
 
-## shape, coloumn
+## shape, columns
 # print(dataframe.shape) # (20, 3) does not include header row
 # print(dataframe.columns) # list columns
 
@@ -61,13 +72,17 @@ max    40.000000
 subset1 = dataframe["Name"] # This returns Series
 subset2 = dataframe[["Name"]] # This returns DataFrame
 subset3 = dataframe[["Name","Age"]]
-print(f"Subset 1 \n {subset1.head()} \n Subset 2 \n {subset2.head()} \n Subset 3 \n {subset3.head()} ")
+# print(f"Subset 1 \n {subset1.head()} \n Subset 2 \n {subset2.head()} \n Subset 3 \n {subset3.head()} ")
 
+dataframe["Newcol1"] = 10 # to add new column
+# print(dataframe.head())
+dataframe.insert(0, "Newcol2", 10) # to add new column
+# print(dataframe.head())
 
-dataframe["newcol1"] = 10 # to add new column
-# print(dataframe)
-dataframe.insert(0, "newcol2", 10) # to add new column
-# print(dataframe)
 ## filters
-# subset = df[["col1"] > 80]
-# subset = df[(["col1"] > 80) & (df["col22] > 40]
+filter1 = dataframe[dataframe["Age"] > 25]
+print(filter1.head())
+
+filter2 = dataframe[(dataframe["Age"] > 25) & (dataframe["City"] == "Toronto")]
+
+print(filter2.head())

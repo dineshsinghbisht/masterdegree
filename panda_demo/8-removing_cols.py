@@ -8,6 +8,6 @@ print("Columns are:", df.columns)
 
 print("before", df.head())
 
-df.drop(columns=["Age"],inplace=True)
+df.drop(columns=["Age"], inplace=True)
 print("after") 
 print(df.head())

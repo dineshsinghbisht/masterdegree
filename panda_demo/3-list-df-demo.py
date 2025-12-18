@@ -15,7 +15,7 @@ import pandas as pd
 data = [['Alice', 25, 'London'],
         ['Bob', 30, 'Paris'],
         ['Charlie', 35, 'Tokyo']]
-
+ 
 # Provide column names separately
 columns = ['Name', 'Age', 'City']
 

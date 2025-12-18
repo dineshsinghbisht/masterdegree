@@ -1,9 +1,7 @@
 # a dictionary is column-oriented, while a list is row-oriented
 '''
 Creating a DataFrame from a dictionary is the most common and intuitive method because it directly maps to the DataFrame's column-based structure.
-
 Structure: The dictionary keys become the column names, and the values, which are lists, become the data for each column.
-
 Best for: When your data is already organized by columns. It's often cleaner and more readable.
 '''
 
