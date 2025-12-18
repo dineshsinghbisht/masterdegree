@@ -18,3 +18,8 @@ print(np.isinf(arr))
 print(np.nan_to_num(arr, nan=10, posinf=99, neginf=-99))
 # [  1.  10.  99. -99.]
 
+array2d = np.random.randint(20,50, (3,4)).astype(float)
+array2d[2,3] = np.nan # ValueError: cannot convert float NaN to integer
+print(array2d)
+print(np.isnan(array2d))
+print(array2d[~np.isnan(array2d)])
