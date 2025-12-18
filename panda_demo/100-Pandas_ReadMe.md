@@ -1,5 +1,7 @@
 https://www.youtube.com/watch?v=qrMnoY8qBJM
 
+source ~/masterdegree/myproject_env/bin/activate
+
 
 Pandas
 *******

@@ -1,12 +1,24 @@
+'''
+info()
+describe()
+shape
+columns
+head()
+tail()
+read_csv, read_json, read_excel
+to_csv, to_json, to_excel
+'''
+
 import pandas as pd
 
 # read_csv, read_json, read_excel
 dataframe = pd.read_csv("sample_students.csv") # encoding="utf-8" or "latin1"
-print(dataframe)
+print(dataframe) 
 
 # how many rows and column type of data in column
-##info(), describe()
+## info(), describe(), head(), tail(), columns, shape
 print(dataframe.info())
+
 '''
 <class 'pandas.core.frame.DataFrame'>
 RangeIndex: 20 entries, 0 to 19
@@ -21,8 +33,7 @@ memory usage: 612.0+ bytes
 None
 '''
 
-
-print(dataframe.describe())
+print(dataframe.describe()) # describe on numeric columns
 '''
              Age
 count  20.000000
@@ -37,14 +48,17 @@ max    40.000000
 
 ## shape, coloumn
 print(dataframe.shape) # (20, 3) does not include header row
-print(dataframe.columns)
+print(dataframe.columns) # list columns
+
 
 ## how to select one or multiple cols
-# subset = df["col1"]
-# subset = df[["col1","col2"]]
-dataframe["newcol"] = 10
+# subset1 = df["col1"] - This returns Series
+# subset2 = df[["col1"]] - This returns DataFrame
+# subset3 = df[["col1","col2"]]
+dataframe["newcol1"] = 10 # to add new column
 print(dataframe)
-
-## filterps
+dataframe.insert(0, "newcol2", 10) # to add new column
+print(dataframe)
+## filters
 # subset = df[["col1"] > 80]
 # subset = df[(["col1"] > 80) & (df["col22] > 40]
