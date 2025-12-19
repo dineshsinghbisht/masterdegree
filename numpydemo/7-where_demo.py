@@ -10,7 +10,6 @@ print(np.where(array_1d % 2 == 0))
 indexes = [0,4,5]
 print("Fancy indexing", array_1d[indexes])
 
-
 array2d = np.random.randint(20,50, (3,4))
 print(array2d)
 print(array2d[array2d % 2 == 0])
