@@ -6,27 +6,30 @@ import numpy as np
 .itemsize => size of each element in array
 .size => no of elements in array
 .nbytes => total size of array
+len() => 
 type() => type of numpy array
 '''
 
 array_0d = np.array(100)
-print(f'value of array_0d: {array_0d}')                     # 100
-print(f'type of array_0d: {type(array_0d)}')                # <class 'numpy.ndarray'>
-print(f'dimension of array_0d: {array_0d.ndim}')            # 0
-print(f'shape of array_0d: {array_0d.shape}')               # ()
-print(f'data type of array_0d: {array_0d.dtype}')           # int64
-print(f'total size of array_0d: {array_0d.size}')           # 1
-print(f'itemsize in array_0d: {array_0d.itemsize}')         # 8
-print(f'total size of array_0d: {array_0d.nbytes}')         # 8 (arr.size * arr.itemsize)
+# print(f'value of array_0d: {array_0d}')                     # 100
+# print(f'type of array_0d: {type(array_0d)}')                # <class 'numpy.ndarray'>
+# print(f'length of array_0d: {len(array_0d)}')             # This will not work for 0 dim array ie scalar 
+# print(f'dimension of array_0d: {array_0d.ndim}')            # 0
+# print(f'shape of array_0d: {array_0d.shape}')               # ()
+# print(f'data type of array_0d: {array_0d.dtype}')           # int64
+# print(f'total size of array_0d: {array_0d.size}')           # 1
+# print(f'itemsize in array_0d: {array_0d.itemsize}')         # 8
+# print(f'total size of array_0d: {array_0d.nbytes}')         # 8 (arr.size * arr.itemsize)
 
 array_1d = np.array([1,2,3,4,5])
-print(f'value of array_1d: {array_1d}')                     # [1 2 3 4 5]
-print(f'type of array_1d: {type(array_1d)}')                # <class 'numpy.ndarray'>
-print(f'dimension of array_1d: {array_1d.ndim}')            # 1
-print(f'shape of array_1d: {array_1d.shape}')               # (5,)
-print(f'type of elements in array_1d: {array_1d.dtype}')    # int64
-print(f'total size of array_1d: {array_1d.size}')           # 5
-print(f'itemsize of array_1d: {array_1d.itemsize}')         # 8
+# print(f'value of array_1d: {array_1d}')                     # [1 2 3 4 5]
+# print(f'type of array_1d: {type(array_1d)}')                # <class 'numpy.ndarray'>
+# print(f'length of array_1d: {len(array_1d)}')               # 5
+# print(f'dimension of array_1d: {array_1d.ndim}')            # 1
+# print(f'shape of array_1d: {array_1d.shape}')               # (5,)
+# print(f'type of elements in array_1d: {array_1d.dtype}')    # int64
+# print(f'total size of array_1d: {array_1d.size}')           # 5
+# print(f'itemsize of array_1d: {array_1d.itemsize}')         # 8
 
 # array_1d_type = np.array([1,2,3,4,5],dtype='int8') # dtype=np.int8
 # array_2d = np.array([[1,2,3],[10,20,30]])
@@ -34,6 +37,8 @@ print(f'itemsize of array_1d: {array_1d.itemsize}')         # 8
 
 
 # print(f'value of array_2d: {array_2d}')
+# print(f'type of array_2d: {type(array_2d)}')                # <class 'numpy.ndarray'>
+# print(f'length of array_2d: {len(array_2d)}')               # 2
 # print(f'size of array_2d: {array_2d.size}')
 # print(f'dimension of array_2d: {array_2d.ndim}')
 # print(f'shape of array_2d: {array_2d.shape}')
