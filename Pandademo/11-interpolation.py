@@ -10,5 +10,5 @@ mydict = {
 df = pd.DataFrame(mydict)
 print(df)
 
-print(df['Age'].interpolate(method="linear",inplace=True))
+print(df['Age'].interpolate(method="linear", inplace=True))
 print(df)
