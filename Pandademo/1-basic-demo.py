@@ -1,27 +1,31 @@
 '''
+Series - 1d Vs DataFrame - rows and columns
+type(df)
+df.info()
+df.describe()
+df.shape()
+df.columns
+df.index
+df.dtypes
+df.shape
+df.head()
+df.tail()
 
-Series Vs DataFrame 
-type() - type(df)
-info() - df.info()
-describe() - df.describe()
-shape - df.shape()
-columns - df.columns
-index - df.index
-head() - df.head()
-tail() - df.tail
 read_csv, read_json, read_excel - pd.read_csv("filename")
 to_csv, to_json, to_excel - df.to_csv("filename", index=False)
-.insert() - To insert new column at specific position
 
+.insert() - To insert new column at specific position
 '''
 
 import pandas as pd
 
 df = pd.Series([1,2,3])
-print("Demo About Panda's Series")
-print(df)
-print(type(df)) # <class 'pandas.core.series.Series'>
-
+# print("Demo About Panda's Series")
+# print(type(df)) # <class 'pandas.core.series.Series'>
+# print(df)
+df = pd.Series([1,2,3],index=["ram","shyam","ghanshyam"])
+# print(df)
+# print("ghansyam index value is", df["ghanshyam"])
 
 # read_csv, read_json, read_excel
 
@@ -30,6 +34,8 @@ dataframe = pd.read_csv("sample_students.csv") # encoding="utf-8" or "latin1"
 # print(dataframe)
 # print(dataframe.head())
 # print(dataframe.tail())
+# print(dataframe.dtypes) # data type for each column
+# print(dataframe.shape) # (20, 3)
 
 
 # how many rows and column type of data in column
@@ -78,10 +84,10 @@ subset3 = dataframe[["Name","Age"]]
 
 dataframe["Newcol1"] = 10 # to add new column
 # print(dataframe.head())
-dataframe.insert(0, "Newcol2", 10) # to add new column
+dataframe.insert(0, "Newcol2", 10) # to add new column at specific location
 # print(dataframe.head())
 
-## filters
+## filters using boolean masking
 filter1 = dataframe[dataframe["Age"] > 25]
 print(filter1.head())
 
