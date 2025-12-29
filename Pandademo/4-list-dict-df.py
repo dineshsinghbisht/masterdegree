@@ -8,7 +8,7 @@ students = [
 import pandas as pd
 df = pd.DataFrame(students)
 # print(df)
-print(df.index)
+# print(df.index)
 
 data = {
     "Name": ["Alice", "Bob", "Charlie"],

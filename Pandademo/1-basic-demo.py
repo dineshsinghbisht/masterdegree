@@ -14,7 +14,7 @@ df.tail()
 read_csv, read_json, read_excel - pd.read_csv("filename")
 to_csv, to_json, to_excel - df.to_csv("filename", index=False)
 
-.insert() - To insert new column at specific position
+df.insert() - To insert new column at specific position
 '''
 
 import pandas as pd
@@ -23,6 +23,7 @@ df = pd.Series([1,2,3])
 # print("Demo About Panda's Series")
 # print(type(df)) # <class 'pandas.core.series.Series'>
 # print(df)
+
 df = pd.Series([1,2,3],index=["ram","shyam","ghanshyam"])
 # print(df)
 # print("ghansyam index value is", df["ghanshyam"])
@@ -36,10 +37,6 @@ dataframe = pd.read_csv("sample_students.csv") # encoding="utf-8" or "latin1"
 # print(dataframe.tail())
 # print(dataframe.dtypes) # data type for each column
 # print(dataframe.shape) # (20, 3)
-
-
-# how many rows and column type of data in column
-## info(), describe(), head(), tail(), columns, shape
 # print(dataframe.info())
 
 '''
@@ -92,5 +89,4 @@ filter1 = dataframe[dataframe["Age"] > 25]
 print(filter1.head())
 
 filter2 = dataframe[(dataframe["Age"] > 25) & (dataframe["City"] == "Toronto")]
-
 print(filter2.head())
