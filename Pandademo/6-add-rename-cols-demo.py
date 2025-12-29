@@ -13,5 +13,17 @@ print(df.head())
 df.insert(0,"Id", df["Age"]*20) ## insert(loc, "colname", value)
 print(df.head())
 
-df.rename(columns={"Id": "IDCol", "Student": "student" }, inplace=True)
+df.rename(columns={
+    "Id": "IDCol", 
+    "Student": "student"
+    },
+    inplace=True
+)
 print(df.columns)
+
+'''
+df = df.rename(index={
+    0: "row_1",
+    1: "row_2"
+})
+'''
