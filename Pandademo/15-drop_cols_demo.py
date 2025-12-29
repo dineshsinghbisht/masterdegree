@@ -23,8 +23,8 @@ df = pd.DataFrame({
 print(df.columns)
 # Find columns with at least one NaN
 print(df)
-print(df.isnull().any())
-print(df.isnull())
+print(df.isnull().any()) # this columnwise operations
+print(df.isnull()) # this checks null for each entry
 
 cols_with_nan = df.columns[df.isnull().any()]
 

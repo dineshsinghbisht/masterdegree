@@ -48,7 +48,7 @@ rows_with_any_nan = df[df.isnull().any(axis=1)]
 # print("Rows with at least one NaN value:")
 # print(rows_with_any_nan)
 
-df_no_nulls = df.dropna()
+df_no_nulls = df.dropna() 
 # print("Rows with at where no NaN value:")
 # print(df_no_nulls)
 
@@ -62,3 +62,12 @@ df = pd.DataFrame({
 # print(df[df["Name"].str.startswith("A")])
 # print(df[df["Name"].str.endswith("d")])
 # print(df[df["City"].isin(["CT", "NY"])])
+
+'''
+Drop column which has any none
+df_clean = df.dropna(axis=1)
+df_clean = df.dropna(axis=1, how="any")
+df_clean = df.loc[:, ~df.isnull().any()]
+df_clean = df.loc[:, df.notna().all()]
+
+'''
