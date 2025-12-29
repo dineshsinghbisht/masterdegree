@@ -8,4 +8,5 @@ df = pd.DataFrame({
 print(df.dtypes)
 print(df.info())
 
-# df["cat_cols"] = df[cat_cols].astype("string")
+df["obj_col"] = df["obj_col"].astype("string")
+print(df.info())

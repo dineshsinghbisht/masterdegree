@@ -1,4 +1,3 @@
-
 '''
 # iloc vs loc
 .loc — label-based indexing
@@ -7,15 +6,13 @@ df.loc[row_label, column_label]
 .iloc — integer position-based indexing
 
 df.iloc[row_position, column_position]
-
 '''
-
 
 import numpy as np
 import pandas as pd
 
 
-## Read csv file into DataFrame
+# Read csv file into DataFrame
 df = pd.read_csv("sample_students.csv")
 # print(df.info())
 # print("Shape is", df.shape)
@@ -44,7 +41,6 @@ df_rest_cols = df.iloc[:, 1:]
 df_last_col = df.iloc[:, -1:]
 df_except_last = df.iloc[:, :-1]
 
-
 df = pd.DataFrame({
     "Age": [25, 30],
     "Salary": [50000, 60000],
@@ -56,11 +52,11 @@ df = pd.DataFrame({
 numeric_df = df.select_dtypes(include="number")
 non_numeric_df = df.select_dtypes(exclude="number")
 
-# print(numeric_df)
-# print(non_numeric_df)
+print(numeric_df)
+print(non_numeric_df)
 
 num_cols = df.select_dtypes(include="number").columns
 cat_cols = df.select_dtypes(exclude="number").columns
-# print(num_cols,cat_cols)
-print(df[num_cols])
-print(df[cat_cols])
+# # print(num_cols,cat_cols)
+# print(df[num_cols])
+# print(df[cat_cols])
