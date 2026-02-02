@@ -11,5 +11,4 @@ python3 -m ipykernel install --user --name=myproject_env --display-name "Python 
 
 
 jupyter notebook
-
 tests
