@@ -1,2 +1,4 @@
 myproject_env
 *.DS_Store
+exercises/machinelearning/dataset_70_30/*
+exercises/machinelearning/merged_dataset/*
