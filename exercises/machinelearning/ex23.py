@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 import os
 import random
 import gymnasium as gym
@@ -8,9 +7,6 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Input
 from tensorflow.keras.layers import LeakyReLU
 from tensorflow.keras.optimizers import Adam
-
-
-#%%
 
 class DQNAgent:
     def __init__(self, state_size, action_size, TRAIN, start_epsilon=1.0):
@@ -75,7 +71,6 @@ class DQNAgent:
 if __name__ == "__main__":
     # Phase 1: set TRAIN=True, LOAD=False, SAVE=True  -> trains and saves weights
     # Phase 2: set TRAIN=False, LOAD=True, SAVE=False -> loads weights and records video
-    # TRAIN = True
     TRAIN = False
     EPISODES = 1
     LOAD = True
