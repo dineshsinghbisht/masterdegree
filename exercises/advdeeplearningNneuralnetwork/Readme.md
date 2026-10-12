@@ -1,1 +1,1 @@
-python  -m jupyter nbconvert --to html exercise1-S25.ipynb
+python  -m jupyter nbconvert --to html Exercise6-S25.ipynb
