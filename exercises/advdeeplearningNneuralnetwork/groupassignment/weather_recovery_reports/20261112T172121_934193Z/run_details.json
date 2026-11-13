@@ -1,0 +1,29 @@
+{
+  "input": "/Users/dineshbisht/masterdegree/exercises/advdeeplearningNneuralnetwork/groupassignment/dataset_mansion.csv",
+  "input_sha256": "9e8334d93bc3f9f1391216f68f52eedb5c9ebd3c2a5856e97db0177cf76f70a0",
+  "checked_at_UTC": "20261112T172121_934193Z",
+  "station": "101339",
+  "query": "fmi::observations::weather::hourly::multipointcoverage",
+  "fetch_enabled": true,
+  "columns": [
+    "AirTemperature(degC)",
+    "HighestTemperature(degC)",
+    "LowestTemperature(degC)",
+    "RelativeHumidity(%)",
+    "WindSpeed(m/s)",
+    "MaximumWindSpeed(m/s)",
+    "MinimumWindSpeed(m/s)",
+    "WindDirection(deg)",
+    "PrecipitationAmount(mm)",
+    "MaximumPrecipitationIntensity(mm/h)",
+    "AirPressure(hPa)",
+    "PresentWeather(rank)",
+    "Latitude",
+    "Longitude",
+    "Place"
+  ],
+  "start": "2021-07-18",
+  "end": "2021-07-19",
+  "max_days": null,
+  "interpretation": "Recovered historical observations, not weather forecasts. Existing observed values are never replaced."
+}

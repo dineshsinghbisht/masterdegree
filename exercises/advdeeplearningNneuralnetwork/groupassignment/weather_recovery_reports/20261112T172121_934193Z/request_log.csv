@@ -1,0 +1,3 @@
+UTC date,Status,Source,Returned hours,URL,Error
+2021-07-18,success,network,0,https://opendata.fmi.fi/wfs?service=WFS&version=2.0.0&request=GetFeature&storedquery_id=fmi%3A%3Aobservations%3A%3Aweather%3A%3Ahourly%3A%3Amultipointcoverage&fmisid=101339&starttime=2021-07-18T00%3A00%3A00Z&endtime=2021-07-18T23%3A59%3A59Z,
+2021-07-19,success,network,0,https://opendata.fmi.fi/wfs?service=WFS&version=2.0.0&request=GetFeature&storedquery_id=fmi%3A%3Aobservations%3A%3Aweather%3A%3Ahourly%3A%3Amultipointcoverage&fmisid=101339&starttime=2021-07-19T00%3A00%3A00Z&endtime=2021-07-19T23%3A59%3A59Z,

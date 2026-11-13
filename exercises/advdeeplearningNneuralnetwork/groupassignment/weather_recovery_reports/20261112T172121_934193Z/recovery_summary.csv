@@ -1,0 +1,16 @@
+Feature,Missing in selected window,recoverable,still_missing_at_source,no_source_record,request_failed,not_queried
+AirTemperature(degC),20,0,0,20,0,0
+HighestTemperature(degC),20,0,0,20,0,0
+LowestTemperature(degC),20,0,0,20,0,0
+RelativeHumidity(%),20,0,0,20,0,0
+WindSpeed(m/s),20,0,0,20,0,0
+MaximumWindSpeed(m/s),20,0,0,20,0,0
+MinimumWindSpeed(m/s),20,0,0,20,0,0
+WindDirection(deg),20,0,0,20,0,0
+PrecipitationAmount(mm),20,0,0,20,0,0
+MaximumPrecipitationIntensity(mm/h),20,0,0,20,0,0
+AirPressure(hPa),20,0,0,20,0,0
+PresentWeather(rank),48,0,0,48,0,0
+Latitude,20,0,0,20,0,0
+Longitude,20,0,0,20,0,0
+Place,20,0,0,20,0,0

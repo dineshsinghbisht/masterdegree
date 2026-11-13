@@ -1,0 +1,1 @@
+MTime_UTC,AirTemperature(degC),HighestTemperature(degC),LowestTemperature(degC),RelativeHumidity(%),WindSpeed(m/s),MaximumWindSpeed(m/s),MinimumWindSpeed(m/s),WindDirection(deg),PrecipitationAmount(mm),MaximumPrecipitationIntensity(mm/h),AirPressure(hPa),PresentWeather(rank),Latitude,Longitude,Place
